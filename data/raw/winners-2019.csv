@@ -1,581 +1,0 @@
-﻿_id,Sl. No.,No. and Name of Parliamentary,Name of the Elected,Party Affiliation
-1,"",Constituency,Member,(if any)
-2,"","",Andhra Pradesh,""
-3,1.,1-  Araku (ST),Goddeti. Madhavi,Yuvajana Sramika Rythu
-4,"","","",Congress Party
-5,2.,2-  Srikakulam,Kinjarapu Ram Mohan Naidu,Telugu Desam
-6,3.,3-  Vizianagaram,Bellana Chandra Sekhar,Yuvajana Sramika Rythu
-7,"","","",Congress Party
-8,4.,"4-Visakhapatnam",M V V Satyanarayana,"Yuvajana Sramika RythuCongress Party"
-9,5.,"5-Anakapalle",Dr.Beesetti Venkata Satyavathi,"Yuvajana Sramika RythuCongress Party"
-10,6.,"6-Kakinada",Vanga Geethaviswanath,"Yuvajana Sramika RythuCongress Party"
-11,7.,"7-Amalapuram (SC)",Chinta Anuradha,"Yuvajana Sramika RythuCongress Party"
-12,8.,"8-Rajahmundry",Margani Bharat,"Yuvajana Sramika RythuCongress Party"
-13,9.,"9-Narsapuram","Kanumuru Raghu Rama KrishnaRaju","Yuvajana Sramika RythuCongress Party"
-14,10.,"10-Eluru",Kotagiri Sridhar,"Yuvajana Sramika RythuCongress Party"
-15,11.,"11-Machilipatnam",Balashowry Vallabhaneni,"Yuvajana Sramika RythuCongress Party"
-16,12.,"12-Vijayawada",Kesineni Srinivas (Nani),Telugu Desam
-17,13.,"13-Guntur",Jayadev Galla,Telugu Desam
-18,14.,"14-Narasaraopet",Lavu Sri Krishna Devarayalu,"Yuvajana Sramika RythuCongress Party"
-19,15.,"15-Bapatla (SC)",Nandigam Suresh,"Yuvajana Sramika RythuCongress Party"
-20,16.,"16-Ongole",Magunta Sreenivasulu Reddy,"Yuvajana Sramika RythuCongress Party"
-21,17.,"17-Nandyal",Pocha. Brahmananda Reddy,"Yuvajana Sramika RythuCongress Party"
-22,18.,"18-Kurnool","Ayushman Doctor SanjeevKumar","Yuvajana Sramika RythuCongress Party"
-23,19.,"19-Anantapur",Talari Rangaiah,"Yuvajana Sramika RythuCongress Party"
-24,20.,"20-Hindupur",Kuruva Gorantla Madhav,"Yuvajana Sramika RythuCongress Party"
-25,21.,"21-Kadapa",Y. S. Avinash Reddy,"Yuvajana Sramika RythuCongress Party"
-26,22.,"22-Nellore",Adala Prabhakara Reddy,"Yuvajana Sramika RythuCongress Party"
-27,23.,"23-Tirupati (SC)",Balli Durga Prasad Rao,"Yuvajana Sramika RythuCongress Party"
-28,24.,"24-Rajampet",P.V. Midhun Reddy,"Yuvajana Sramika RythuCongress Party"
-29,25.,"25-Chittoor (SC)",N. Reddeppa,"Yuvajana Sramika RythuCongress Party"
-30,Arunachal Pradesh,"","",""
-31,26.,"1-Arunachal West",Kiren Rijiju,Bharatiya Janata Party
-32,27.,"2-Arunachal East",Tapir Gao,Bharatiya Janata Party
-33,Assam,"","",""
-34,28.,"1-Karimganj (SC)",Kripanath Mallah,Bharatiya Janata Party
-35,29.,"2-Silchar",Rajdeep Roy,Bharatiya Janata Party
-36,30.,"3-Autonomous District (ST)",Horen Sing Bey,Bharatiya Janata Party
-37,31.,"4-Dhubri",Badruddin Ajmal,"All India United DemocraticFront"
-38,32.,"5-Kokrajhar (ST)",Naba Kumar Sarania,Independent
-39,33.,"6-Barpeta",Abdul Khaleque,Indian National Congress
-40,34.,"7-Gauhati",Queen Oja,Bharatiya Janata Party
-41,35.,"8-Mangaldoi",Dilip Saikia,Bharatiya Janata Party
-42,36.,"9-Tezpur",Pallab Lochan Das,Bharatiya Janata Party
-43,37.,"10-Nawgong",Pradyut Bordoloi,Indian National Congress
-44,38.,"11-Kaliabor",Gaurav Gogoi,Indian National Congress
-45,39.,"12-Jorhat",Topon Kumar Gogoi,Bharatiya Janata Party
-46,40.,"13-Dibrugarh",Rameswar Teli,Bharatiya Janata Party
-47,41.,"14-Lakhimpur",Pradan Baruah,Bharatiya Janata Party
-48,Bihar,"","",""
-49,42.,"1-Valmiki Nagar",Baidyanath Prasad Mahto,Janata Dal (United)
-50,43.,"2-Paschim Champaran",Dr. Sanjay Jaiswal,Bharatiya Janata Party
-51,44.,"3-Purvi Champaran",Radha Mohan Singh,Bharatiya Janata Party
-52,45.,"4-Sheohar",Rama Devi,Bharatiya Janata Party
-53,46.,"5-Sitamarhi",Sunil Kumar Pintu,Janata Dal (United)
-54,47.,"6-Madhubani",Ashok Kumar Yadav,Bharatiya Janata Party
-55,48.,"7-Jhanjharpur",Ramprit Mandal,Janata Dal (United)
-56,49.,"8-Supaul",Dileshwar Kamait,Janata Dal (United)
-57,50.,"9-Araria",Pradeep Kumar Singh,Bharatiya Janata Party
-58,51.,"10-Kishanganj",Dr. Mohammad Jawed,Indian National Congress
-59,52.,"11-Katihar",Dulal Chandra Goswami,Janata Dal (United)
-60,53.,"12-Purnia",Santosh Kumar,Janata Dal (United)
-61,54.,"13-Madhepura",Dinesh Chandra Yadav,Janata Dal (United)
-62,55.,"14-Darbhanga",Gopal Jee Thakur,Bharatiya Janata Party
-63,56.,"15-Muzaffarpur",Ajay Nishad,Bharatiya Janata Party
-64,57.,"16-Vaishali",Veena Devi,Lok Jan Shakti Party
-65,58.,"17-Gopalganj (SC)",Dr. Alok Kumar Suman,Janata Dal (United)
-66,59.,"18-Siwan",Kavita Singh,Janata Dal (United)
-67,60.,"19-Maharajganj","Janardan Singh 'Sigriwal""",Bharatiya Janata Party
-68,61.,"20-Saran",Rajiv Pratap Rudy,Bharatiya Janata Party
-69,62.,"21-Hajipur (SC)",Pashu Pati Kumar Paras,Lok Jan Shakti Party
-70,63.,"22-Ujiarpur",Nityanand Rai,Bharatiya Janata Party
-71,64.,"23-Samastipur (SC)",Ramchandra Paswan,Lok Jan Shakti Party
-72,65.,"24-Begusarai",Giriraj Singh,Bharatiya Janata Party
-73,66.,"25-Khagaria",Choudhary Mehboob Ali Kaiser,Lok Jan Shakti Party
-74,67.,"26-Bhagalpur",Ajay Kumar Mandal,Janata Dal (United)
-75,68.,"27-Banka",Giridhari Yadav,Janata Dal (United)
-76,69.,"28-Munger","Rajiv Ranjan Singh alias LalanSingh",Janata Dal (United)
-77,70.,"29-Nalanda",Kaushlendra Kumar,Janata Dal (United)
-78,71.,"30-Patna Sahib",Ravi Shankar Prasad,Bharatiya Janata Party
-79,72.,"31-Pataliputra",Ram Kripal Yadav,Bharatiya Janata Party
-80,73.,"32-Arrah",R. K. Singh,Bharatiya Janata Party
-81,74.,"33-Buxar",Ashwini Kumar Choubey,Bharatiya Janata Party
-82,75.,"34-Sasaram (SC)",Chhedi Paswan,Bharatiya Janata Party
-83,76.,"35-Karakat",Mahabali Singh,Janata Dal (United)
-84,77.,"36-Jahanabad",Chandeshwar Prasad,Janata Dal (United)
-85,78.,"37-Aurangabad",Sushil Kumar Singh,Bharatiya Janata Party
-86,79.,"38-Gaya (SC)",Vijay Kumar,Janata Dal (United)
-87,80.,"39-Nawada",Chandan Singh,Lok Jan Shakti Party
-88,81.,"40-Jamui (SC)",Chirag Kumar Paswan,Lok Jan Shakti Party
-89,Chhattisgarh,"","",""
-90,82.,"1-Surguja (ST)",Renuka Singh Saruta,Bharatiya Janata Party
-91,83.,"2-Raigarh (ST)",Gomati Sai,Bharatiya Janata Party
-92,84.,"3-Janjgir-Champa (SC)",Guharam Ajgalley,Bharatiya Janata Party
-93,85.,"4-Korba",Jyotsna Charandas Mahant,Indian National Congress
-94,86.,"5-Bilaspur",Arun Sao,Bharatiya Janata Party
-95,87.,"6-Rajnandgaon",Santosh Pandey,Bharatiya Janata Party
-96,88.,"7-Durg",Vijay Baghel,Bharatiya Janata Party
-97,89.,"8-Raipur",Sunil Kumar Soni,Bharatiya Janata Party
-98,90.,"9-Mahasamund",Chunni Lal Sahu,Bharatiya Janata Party
-99,91.,"10-Bastar (ST)",Deepak Baij,Indian National Congress
-100,92.,"11-Kanker (ST)",Mohan Mandavi,Bharatiya Janata Party
-101,Goa,"","",""
-102,93.,"1-North Goa",Shripad Yesso Naik,Bharatiya Janata Party
-103,94.,"2-South Goa","Cosme Francisco CaitanoSardinha",Indian National Congress
-104,Gujarat,"","",""
-105,95.,"1-Kachchh (SC)",Chavda Vinod Lakhamshi,Bharatiya Janata Party
-106,96.,"2-Banaskantha",Parbatbhai Savabhai Patel,Bharatiya Janata Party
-107,97.,"3-Patan",Dabhi Bharatsinhji Shankarji,Bharatiya Janata Party
-108,98.,"4-Mahesana",Shardaben Anilbhai Patel,Bharatiya Janata Party
-109,99.,"5-Sabarkantha",Rathod Dipsinh Shankarsinh,Bharatiya Janata Party
-110,100.,"6-Gandhinagar",Amit Shah,Bharatiya Janata Party
-111,101.,"7-Ahmedabad East",Patel Hasmukhbhai Somabhai,Bharatiya Janata Party
-112,102.,"8-Ahmedabad West (SC)",Dr. Kirit P. Solanki,Bharatiya Janata Party
-113,103.,"9-Surendranagar",Dr. Munjapara Mahendrabhai,Bharatiya Janata Party
-114,104.,"10-Rajkot","Kundaria MohanbhaiKalyanjibhai",Bharatiya Janata Party
-115,105.,"11-Porbandar",Rameshbhai Lavjibhai Dhaduk,Bharatiya Janata Party
-116,106.,"12-Jamnagar",Poonamben Hematbhai Maadam,Bharatiya Janata Party
-117,107.,"13-Junagadh","Chudasama RajeshbhaiNaranbhai",Bharatiya Janata Party
-118,108.,"14-Amreli","Kachhadiya NaranbhaiBhikhabhai",Bharatiya Janata Party
-119,109.,"15-Bhavnagar",Dr.Bharatiben Dhirubhai Shiyal,Bharatiya Janata Party
-120,110.,"16-Anand","Patel Mitesh Rameshbhai(Bakabhai)",Bharatiya Janata Party
-121,111.,"17-Kheda",Chauhan Devusinh,Bharatiya Janata Party
-122,112.,"18-Panchmahal",Ratansinh Magansinh Rathod,Bharatiya Janata Party
-123,113.,"19-Dahod (ST)","Jashvantsinh SumanbhaiBhabhor",Bharatiya Janata Party
-124,114.,"20-Vadodara",Ranjanben Bhatt,Bharatiya Janata Party
-125,115.,"21-Chhota Udaipur (ST)",Rathva Gitaben Vajesingbhai,Bharatiya Janata Party
-126,116.,"22-Bharuch","Mansukhbhai DhanjibhaiVasava",Bharatiya Janata Party
-127,117.,"23-Bardoli (ST)",Parbhubhai Nagarbhai Vasava,Bharatiya Janata Party
-128,118.,"24-Surat",Darshana Vikram Jardosh,Bharatiya Janata Party
-129,119.,"25-Navsari",C. R. Patil,Bharatiya Janata Party
-130,120.,"26-Valsad (ST)",Dr.K.C.Patel,Bharatiya Janata Party
-131,Haryana,"","",""
-132,121.,"1-Ambala (SC)",Rattan Lal Kataria,Bharatiya Janata Party
-133,122.,"2-Kurukshetra",Nayab Singh,Bharatiya Janata Party
-134,123.,"3-Sirsa (SC)",Sunita Duggal,Bharatiya Janata Party
-135,124.,"4-Hisar",Brijendra Singh,Bharatiya Janata Party
-136,125.,"5-Karnal",Sanjay Bhatia,Bharatiya Janata Party
-137,126.,"6-Sonipat",Ramesh Chander Kaushik,Bharatiya Janata Party
-138,127.,"7-Rohtak",Arvind Kumar Sharma,Bharatiya Janata Party
-139,128.,"8-Bhiwani-Mahendragarh",Dharambir Singh,Bharatiya Janata Party
-140,129.,"9-Gurgaon",Rao Inderjit Singh,Bharatiya Janata Party
-141,130.,10-   Faridabad,Krishan Pal,Bharatiya Janata Party
-142,Himachal Pradesh,"","",""
-143,131.,"1-Kangra",Kishan Kapoor,Bharatiya Janata Party
-144,132.,"2-Mandi",Ram Swaroop Sharma,Bharatiya Janata Party
-145,133.,"3-Hamirpur",Anurag Singh Thakur,Bharatiya Janata Party
-146,134.,"4-Shimla (SC)",Suresh Kumar Kashyap,Bharatiya Janata Party
-147,Jammu & Kashmir,"","",""
-148,135.,"1-Baramulla",Mohammad Akbar Lone,"Jammu & Kashmir NationalConference"
-149,136.,"2-Srinagar",Farooq Abdullah,"Jammu & Kashmir NationalConference"
-150,137.,"3-Anantnag",Hasnain Masoodi,"Jammu & Kashmir NationalConference"
-151,138.,"4-Ladakh",Jamyang Tsering Namgyal,Bharatiya Janata Party
-152,139.,"5-Udhampur",Dr. Jitendra Singh,Bharatiya Janata Party
-153,Jharkhand,"","",""
-154,141.,"1-Rajmahal (ST)",Vijay Kumar Hansdak,Jharkhand Mukti Morcha
-155,142.,"2-Dumka (ST)",Sunil Soren,Bharatiya Janata Party
-156,143.,"3-Godda",Nishikant Dubey,Bharatiya Janata Party
-157,144.,"4-Chatra",Sunil Kumar Singh,Bharatiya Janata Party
-158,145.,"5-Kodarma",Annpurna Devi,Bharatiya Janata Party
-159,146.,"6-Giridih",Chandra Prakash Choudhary,AJSU Party
-160,147.,"7-Dhanbad",Pashupati Nath Singh,Bharatiya Janata Party
-161,148.,"8-Ranchi",Sanjay Seth,Bharatiya Janata Party
-162,149.,"9-Jamshedpur",Bidyut Baran Mahato,Bharatiya Janata Party
-163,150.,"10-Singhbhum (ST)",Geeta Kora,Indian National Congress
-164,151.,"11-Khunti (ST)",Arjun Munda,Bharatiya Janata Party
-165,152.,"12-Lohardaga (ST)",Sudarshan Bhagat,Bharatiya Janata Party
-166,153.,"13-Palamu (SC)",Vishnu Dayal Ram,Bharatiya Janata Party
-167,154.,"14-Hazaribagh",Jayant Sinha,Bharatiya Janata Party
-168,Karnataka,"","",""
-169,155.,"1-Chikkodi",Annasaheb Shankar Jolle,Bharatiya Janata Party
-170,156.,"2-Belgaum",Angadi Suresh Channabasappa,Bharatiya Janata Party
-171,157.,"3-Bagalkot","Gaddigoudar ParvatagoudaChandanagouda",Bharatiya Janata Party
-172,158.,"4-Bijapur (SC)",Jigajinagi Ramesh Chandappa,Bharatiya Janata Party
-173,159.,"5-Gulbarga (SC)",Dr. Umesh G Jadhav,Bharatiya Janata Party
-174,160.,"6-Raichur (ST)",Raja Amareshwara Naik,Bharatiya Janata Party
-175,161.,"7-Bidar",Bhagwanth Khuba,Bharatiya Janata Party
-176,162.,"8-Koppal",Karadi Sanganna Amarappa,Bharatiya Janata Party
-177,163.,"9-Bellary (ST)",Y. Devendrappa,Bharatiya Janata Party
-178,164.,"10-Haveri",Udasi. S.C.,Bharatiya Janata Party
-179,165.,"11-Dharwad",Pralhad Joshi,Bharatiya Janata Party
-180,166.,"12-Uttara Kannada",Anantkumar Hegde,Bharatiya Janata Party
-181,167.,"13-Davanagere",G M Siddeshwar,Bharatiya Janata Party
-182,168.,"14-Shimoga",B.Y.Raghavendra.,Bharatiya Janata Party
-183,169.,"15-Udupi Chikmagalur",Shobha Karandlaje,Bharatiya Janata Party
-184,170.,"16-Hassan",Prajwal Revanna,Janata Dal (Secular)
-185,171.,"17-Dakshina Kannada",Nalin Kumar Kateel,Bharatiya Janata Party
-186,172.,"18-Chitradurga (SC)",A Narayanaswamy,Bharatiya Janata Party
-187,173.,"19-Tumkur",G. S. Basavaraj,Bharatiya Janata Party
-188,174.,"20-Mandya",Sumalatha Ambareesh,Independent
-189,175.,"21-Mysore",Prathap Simha,Bharatiya Janata Party
-190,176.,"22-Chamarajanagar (SC)",V. Srinivas Prasad,Bharatiya Janata Party
-191,177.,"23-Bangalore Rural",D.K. Suresh,Indian National Congress
-192,178.,"24-Bangalore North",D.V. Sadananda Gowda,Bharatiya Janata Party
-193,179.,"25-Bangalore Central",P. C. Mohan,Bharatiya Janata Party
-194,180.,"26-Bangalore South",Tejasvi Surya,Bharatiya Janata Party
-195,181.,"27-Chikkballapur",B.N.Bache Gowda,Bharatiya Janata Party
-196,182.,"28-Kolar (SC)",S. Muniswamy,Bharatiya Janata Party
-197,Kerala,"","",""
-198,183.,"1-Kasaragod",Rajmohan Unnithan,Indian National Congress
-199,184.,"2-Kannur",K. Sudhakaran,Indian National Congress
-200,185.,"3-Vadakara",K. Muraleedharan,Indian National Congress
-201,186.,"4-Wayanad",Rahul Gandhi,Indian National Congress
-202,187.,"5-Kozhikode",M.K.Raghavan,Indian National Congress
-203,188.,"6-Malappuram",P.K. Kunhalikutty,Indian Union Muslim League
-204,189.,"7-Ponnani",E. T. Mohammed Basheer,Indian Union Muslim League
-205,190.,"8-Palakkad",V. K. Sreekandan,Indian National Congress
-206,191.,"9-Alathur (SC)",Ramya Haridas,Indian National Congress
-207,192.,"10-Thrissur",T. N. Prathapan,Indian National Congress
-208,193.,"11-Chalakudy",Benny Behanan,Indian National Congress
-209,194.,"12-Ernakulam",Hibi Eden,Indian National Congress
-210,195.,"13-Idukki",Adv. Dean Kuriakose,Indian National Congress
-211,196.,"14-Kottayam",Thomas Chazhikadan,Kerala Congress (M)
-212,197.,"15-Alappuzha",Adv. A. M. Ariff,"Communist Party Of India(Marxist)"
-213,198.,"16-Mavelikkara (SC)",Kodikunnil Suresh,Indian National Congress
-214,199.,"17-Pathanamthitta",Anto Antony,Indian National Congress
-215,200.,"18-Kollam",N.K.Premachandran,Revolutionary Socialist Party
-216,201.,"19-Attingal",Adv. Adoor Prakash,Indian National Congress
-217,202.,"20-Thiruvananthapuram",Dr. Shashi Tharoor,Indian National Congress
-218,Madhya Pradesh,"","",""
-219,203.,"1-Morena",Narendra Singh Tomar,Bharatiya Janata Party
-220,204.,"2-Bhind (SC)",Sandhya Ray,Bharatiya Janata Party
-221,205.,"3-Gwalior",Vivek Narayan Shejwalkar,Bharatiya Janata Party
-222,206.,"4-Guna","Krishna Pal Singh""Dr. K. P. Yadav""",Bharatiya Janata Party
-223,207.,"5-Sagar",Rajbahadur Singh,Bharatiya Janata Party
-224,208.,"6-Tikamgarh (SC)",Dr Virendra Kumar,Bharatiya Janata Party
-225,209.,"7-Damoh",Prahalad Singh Patel,Bharatiya Janata Party
-226,210.,"8-Khajuraho","V.D. Sharma(Vishnu Datt Sharma)",Bharatiya Janata Party
-227,211.,"9-Satna",Ganesh Singh,Bharatiya Janata Party
-228,212.,"10-Rewa",Janardan Mishra,Bharatiya Janata Party
-229,213.,"11-Sidhi",Riti Pathak,Bharatiya Janata Party
-230,214.,"12-Shahdol (ST)",Himadri Singh,Bharatiya Janata Party
-231,215.,"13-Jabalpur",Rakesh Singh,Bharatiya Janata Party
-232,216.,"14-Mandla (ST)",Faggansingh Kulaste,Bharatiya Janata Party
-233,217.,"15-Balaghat",Dr Dhal Singh Bisen,Bharatiya Janata Party
-234,218.,"16-Chhindwara",Nakul Kamal Nath,Indian National Congress
-235,219.,"17-Hoshangabad",Uday Pratap Singh,Bharatiya Janata Party
-236,220.,"18-Vidisha",Ramakant Bhargava,Bharatiya Janata Party
-237,221.,"19-Bhopal",Sadhvi Pragya Singh Thakur,Bharatiya Janata Party
-238,222.,"20-Rajgarh",Rodmal Nagar,Bharatiya Janata Party
-239,223.,"21-Dewas (SC)",Mahendra Singh Solanky,Bharatiya Janata Party
-240,224.,"22-Ujjain (SC)",Anil Firojiya,Bharatiya Janata Party
-241,225.,"23-Mandsour",Sudheer Gupta,Bharatiya Janata Party
-242,226.,"24-Ratlam (ST)",Guman Singh Damor,Bharatiya Janata Party
-243,227.,"25-Dhar (ST)",Chattarsingh Darbar,Bharatiya Janata Party
-244,228.,"26-Indore",Shankar Lalwani,Bharatiya Janata Party
-245,229.,"27-Khargone (ST)",Gajendra Umrao Singh Patel,Bharatiya Janata Party
-246,230.,"28-Khandwa","Nandkumar Singh Chouhan(Nandu Bhaiya)",Bharatiya Janata Party
-247,231.,"29-Betul (ST)",Durga Das (D.D.) Uikey,Bharatiya Janata Party
-248,Maharashtra,"","",""
-249,232.,"1-Nandurbar (ST)",Dr. Heena Vijaykumar Gavit,Bharatiya Janata Party
-250,233.,"2-Dhule",Bhamre Subhash Ramrao,Bharatiya Janata Party
-251,234.,"3-Jalgaon",Unmesh Bhaiyyasaheb Patil,Bharatiya Janata Party
-252,235.,"4-Raver",Khadse Raksha Nikhil,Bharatiya Janata Party
-253,236.,"5-Buldhana",Jadhav Prataprao Ganpatrao,Shiv Sena
-254,237.,"6-Akola",Dhotre Sanjay Shamrao,Bharatiya Janata Party
-255,238.,"7-Amravati (SC)",Navnit Ravi Rana,Independent
-256,239.,"8-Wardha",Ramdas Chandrabhanji Tadas,Bharatiya Janata Party
-257,240.,"9-Ramtek (SC)",Krupal Balaji Tumane,Shiv Sena
-258,241.,"10-Nagpur",Nitin Jairam Gadkari,Bharatiya Janata Party
-259,242.,"11-Bhandara-Gondiya",Sunil Baburao Mendhe,Bharatiya Janata Party
-260,243.,"12-Gadchiroli-Chimur (ST)",Ashok Mahadeorao Nete,Bharatiya Janata Party
-261,244.,"13-Chandrapur","Balubhau alias Suresh NarayanDhanorkar",Indian National Congress
-262,245.,"14-Yavatmal-Washim",Bhavana Pundlikrao Gawali,Shiv Sena
-263,246.,"15-Hingoli",Hemant Patil,Shiv Sena
-264,247.,"16-Nanded",Prataprao Patil Chikhalikar,Bharatiya Janata Party
-265,248.,"17-Parbhani",Jadhav Sanjay (Bandu) Haribhau,Shiv Sena
-266,249.,"18-Jalna",Danve Raosaheb Dadarao,Bharatiya Janata Party
-267,250.,"19-Aurangabad",Imtiaz Jaleel Syed,"All India Majlis-E-IttehadulMuslimeen"
-268,251.,"20-Dindori (ST)",Dr. Bharati Pravin Pawar,Bharatiya Janata Party
-269,252.,"21-Nashik",Godse Hemant Tukaram,Shiv Sena
-270,253.,"22-Palghar (ST)",Rajendra Dhedya Gavit,Shiv Sena
-271,254.,"23-Bhiwandi",Kapil Moreshwar Patil,Bharatiya Janata Party
-272,255.,"24-Kalyan",Dr. Shrikant Eknath Shinde,Shiv Sena
-273,256.,"25-Thane",Rajan Baburao Vichare,Shiv Sena
-274,257.,"26-Mumbai North",Gopal Shetty,Bharatiya Janata Party
-275,258.,"27-Mumbai North-West",Gajanan Kirtikar,Shiv Sena
-276,259.,"28-Mumbai North-East",Manoj Kotak,Bharatiya Janata Party
-277,260.,"29-Mumbai North-Central",Poonam Mahajan,Bharatiya Janata Party
-278,261.,"30-Mumbai South-Central",Rahul Ramesh Shewale,Shiv Sena
-279,262.,"31-Mumbai South",Arvind Ganpat Sawant,Shiv Sena
-280,263.,"32-Raigad",Tatkare Sunil Dattatray,Nationalist Congress Party
-281,264.,"33-Maval",Shrirang Appa Chandu Barne,Shiv Sena
-282,265.,"34-Pune",Girish Bhalchandra Bapat,Bharatiya Janata Party
-283,266.,"35-Baramati",Supriya Sule,Nationalist Congress Party
-284,267.,"36-Shirur",Dr. Amol Ramsing Kolhe,Nationalist Congress  Party
-285,268.,"37-Ahmednagar","Dr. Sujay RadhakrishnaVikhepatil",Bharatiya Janata Party
-286,269.,"38-Shirdi (SC)",Sadashiv Kisan Lokhande,Shiv Sena
-287,270.,"39-Beed",Pritam Gopinathrao Munde,Bharatiya Janata Party
-288,271.,"40-Osmanabad","Omprakash Bhupalsinh aliasPawan Rajenimbalkar",Shiv Sena
-289,272.,"41-Latur (SC)",Sudhakar Tukaram Shrangare,Bharatiya Janata Party
-290,273.,"42-Solapur (SC)","Shri Sha. Bra. Dr. JaiSidheshwar ShivacharyMahaswamiji",Bharatiya Janata Party
-291,274.,"43-Madha","Ranjeetsinha Hindurao Naik-Nimbalkar",Bharatiya Janata Party
-292,275.,"44-Sangli",Sanjaykaka Patil,Bharatiya Janata Party
-293,276.,"45-Satara","Shrimant Chh. UdayanrajePratapsinhmaharaj Bhonsle",Nationalist Congress Party
-294,277.,"46-RatnagiriSindhudurg",Vinayak Raut,Shiv Sena
-295,278.,"47-Kolhapur",Sanjay Sadashivrao Mandlik,Shiv Sena
-296,279.,"48-Hatkanangle",Dhairyasheel Sambhajirao Mane,Shiv Sena
-297,Manipur,"","",""
-298,280.,"1-Inner Manipur",Dr Rajkumar Ranjan Singh,Bharatiya Janata Party
-299,281.,"2-Outer Manipur (ST)",Lorho S. Pfoze,Naga Peoples Front
-300,Meghalaya,"","",""
-301,282.,"1-Shillong (ST)",Vincent H. Pala,Indian National Congress
-302,283.,"2-Tura (ST)",Agatha K. Sangma,National People's Party
-303,Mizoram,"","",""
-304,284.,"1-Mizoram (ST)",C. Lalrosanga,Mizo National Front
-305,Nagaland,"","",""
-306,285.,"1-Nagaland",Tokheho Yepthomi,"Nationalist DemocraticProgressive Party"
-307,Odisha,"","",""
-308,286.,"1-Bargarh",Suresh Pujari,Bharatiya Janata Party
-309,287.,"2-Sundargarh (ST)",Jual Oram,Bharatiya Janata Party
-310,288.,"3-Sambalpur",Nitesh Ganga Deb,Bharatiya Janata Party
-311,289.,"4-Keonjhar (ST)",Chandrani Murmu,Biju Janata Dal
-312,290.,"5-Mayurbhanj (ST)",Er. Bishweswar Tudu,Bharatiya Janata Party
-313,291.,"6-Balasore",Pratap Chandra Sarangi,Bharatiya Janata Party
-314,292.,"7-Bhadrak (SC)",Manjulata Mandal,Biju Janata Dal
-315,293.,"8-Jajpur (SC)",Sarmistha Sethi,Biju Janata Dal
-316,294.,"9-Dhenkanal",Mahesh Sahoo,Biju Janata Dal
-317,295.,"10-Bolangir",Sangeeta Kumari Singh Deo,Bharatiya Janata Party
-318,296.,"11-Kalahandi",Basanta Kumar Panda,Bharatiya Janata Party
-319,297.,"12-Nabarangpur (ST)",Ramesh Chandra Majhi,Biju Janata Dal
-320,298.,"13-Kandhamal",Achyutananda Samanta,Biju Janata Dal
-321,299.,"14-Cuttack",Bhartruhari Mahtab,Biju Janata Dal
-322,300.,"15-Kendrapara",Anubhav Mohanty,Biju Janata Dal
-323,301.,"16-Jagatsinghpur (SC)",Rajashree Mallick,Biju Janata Dal
-324,302.,"17-Puri",Pinaki Mishra,Biju Janata Dal
-325,303.,"18-Bhubaneswar",Aparajita Sarangi,Bharatiya Janata Party
-326,304.,"19-Aska",Pramila Bisoyi,Biju Janata Dal
-327,305.,"20-Berhampur",Chandra Sekhar Sahu,Biju Janata Dal
-328,306.,"21-Koraput (ST)",Saptagiri Ulaka,Indian National Congress
-329,Punjab,"","",""
-330,307.,"1-Gurdaspur",Sunny Deol,Bharatiya Janata Party
-331,308.,"2-Amritsar",Gurjeet Singh Aujla,Indian National Congress
-332,309.,"3-Khadoor Sahib",Jasbir Singh Gill (Dimpa),Indian National Congress
-333,310.,"4-Jalandhar (SC)",Santokh Singh Chaudhary,Indian National Congress
-334,311.,"5-Hoshiarpur (SC)",Som Parkash,Bharatiya Janata Party
-335,312.,"6-Anandpur Sahib",Manish Tewari,Indian National Congress
-336,313.,"7-Ludhiana",Ravneet Singh Bittu,Indian National Congress
-337,314.,"8-Fatehgarh Sahib (SC)",Amar Singh,Indian National Congress
-338,315.,"9-Faridkot (SC)",Mohammad Sadique,Indian National Congress
-339,316.,"10-Firozpur",Sukhbir Singh Badal,Shiromani Akali Dal
-340,317.,"11-Bathinda",Harsimrat Kaur Badal,Shiromani Akali Dal
-341,318.,"12-Sangrur",Bhagwant Mann,Aam Aadmi Party
-342,319.,"13-Patiala",Preneet Kaur,Indian National Congress
-343,Rajasthan,"","",""
-344,320.,"1-Ganganagar (SC)",Nihal Chand,Bharatiya Janata Party
-345,321.,"2-Bikaner (SC)",Arjun Ram Meghwal,Bharatiya Janata Party
-346,322.,"3-Churu",Rahul Kaswan,Bharatiya Janata Party
-347,323.,"4-Jhunjhunu",Narendra Kumar,Bharatiya Janata Party
-348,324.,"5-Sikar",Sumedhanand Saraswati,Bharatiya Janata Party
-349,325.,"6-Jaipur Rural",Col. Rajyavardhan Rathore,Bharatiya Janata Party
-350,326.,"7-Jaipur",Ramcharan Bohra,Bharatiya Janata Party
-351,327.,"8-Alwar",Balak Nath,Bharatiya Janata Party
-352,328.,"9-Bharatpur (SC)",Ranjeeta Koli,Bharatiya Janata Party
-353,329.,"10-KarauliDholpur (SC)",Manoj Rajoria,Bharatiya Janata Party
-354,330.,"11-Dausa (ST)",Jaskaur Meena,Bharatiya Janata Party
-355,331.,"12-TonkSawai Madhopur",Sukhbir Singh Jaunapuria,Bharatiya Janata Party
-356,332.,"13-Ajmer",Bhagirath Chaudhary,Bharatiya Janata Party
-357,333.,"14-Nagaur",Hanuman Beniwal,Rashtriya Loktantrik Party
-358,334.,"15-Pali",P. P. Chaudhary,Bharatiya Janata Party
-359,335.,"16-Jodhpur",Gajendra Singh Shekhawat,Bharatiya Janata Party
-360,336.,"17-Barmer",Kailash Choudhary,Bharatiya Janata Party
-361,337.,"18-Jalore",Devaji Patel,Bharatiya Janata Party
-362,338.,"19-Udaipur (ST)",Arjunlal Meena,Bharatiya Janata Party
-363,339.,"20-Banswara (ST)",Kanakmal Katara,Bharatiya Janata Party
-364,340.,"21-Chittorgarh",Chandra Prakash Joshi,Bharatiya Janata Party
-365,341.,"22-Rajsamand",Diya Kumari,Bharatiya Janata Party
-366,342.,"23-Bhilwara",Subhash Chandra Baheria,Bharatiya Janata Party
-367,343.,"24-Kota",Om Birla,Bharatiya Janata Party
-368,344.,"25-Jhalawar-Baran",Dushyant Singh,Bharatiya Janata Party
-369,Sikkim,"","",""
-370,345.,"1-Sikkim",Indra Hang Subba,Sikkim Krantikari Morcha
-371,Tamil Nadu,"","",""
-372,346.,"1-Tiruvallur (SC)",Dr. K. Jayakumar,Indian National Congress
-373,347.,"2-Chennai North",Dr. Kalanidhi Veeraswamy,Dravida Munnetra Kazhagam
-374,348.,"3-Chennai South","T.Sumathy (A) ThamizhachiThangapandian",Dravida Munnetra Kazhagam
-375,349.,"4-Chennai Central",Dayanidhi Maran,Dravida Munnetra Kazhagam
-376,350.,"5-Sriperumbudur","Baalu,T.R.",Dravida Munnetra Kazhagam
-377,351.,"6-Kancheepuram (SC)","Selvam,G",Dravida Munnetra Kazhagam
-378,352.,"7-Arakkonam",S. Jagathrakshakan,Dravida Munnetra Kazhagam
-379,353.,"8-Vellore",Vacant,""
-380,354.,"9-Krishnagiri",Dr.A.Chellakumar,Indian National Congress
-381,355.,"10-Dharmapuri",Dnv Senthilkumar. S.,Dravida Munnetra Kazhagam
-382,356.,"11-Tiruvannamalai","Annadurai, C. N.",Dravida Munnetra Kazhagam
-383,357.,"12-Arani","Vishnu Prasad, M. K.",Indian National Congress
-384,358.,"13-Viluppuram (SC)",Ravikumar. D,Dravida Munnetra Kazhagam
-385,359.,"14-Kallakurichi",Gautham Sigamani Pon,Dravida Munnetra Kazhagam
-386,360.,"15-Salem",Parthiban.S.R,Dravida Munnetra Kazhagam
-387,361.,"16-Namakkal",Chinraj A.K.P,Dravida Munnetra Kazhagam
-388,362.,"17-Erode",Ganeshamurthi. A,Dravida Munnetra Kazhagam
-389,363.,"18-Tiruppur","Subbarayan, K.",Communist Party of India
-390,364.,"19-Nilgiris (SC)","Raja, A.",Dravida Munnetra Kazhagam
-391,365.,"20-Coimbatore","Natarajan, P.R","Communist Party of India(Marxist)"
-392,366.,"21-Pollachi",Shanmuga Sundaram. K,Dravida Munnetra Kazhagam
-393,367.,"22-Dindigul","Velusamy, P.",Dravida Munnetra Kazhagam
-394,368.,"23-Karur",Jothimani S,Indian National Congress
-395,369.,"24-Tiruchirappalli",Thirunavukkarasar. SU,Indian National Congress
-396,370.,"25-Perambalur","Dr. Paarivendhar, T. R.",Dravida Munnetra Kazhagam
-397,371.,"26-Cuddalore",T. R. V .S. Ramesh,Dravida Munnetra Kazhagam
-398,372.,"27-Chidambaram (SC)",Thirumaavalavan. Thol,Viduthalai Chairuthaigal Katchi
-399,373.,"28-Mayiladuthurai",Ramalingam. S,Dravida Munnetra Kazhagam
-400,374.,"29-Nagapattinam (SC)",Selvaraj M,Communist Party of India
-401,375.,"30-Thanjavur","Palanimanickam,S.S.",Dravida Munnetra Kazhagam
-402,376.,"31-Sivaganga",Karti P Chidambaram,Indian National Congress
-403,377.,"32-Madurai",Venkatesan. S,"Communist Party of India(Marxist)"
-404,378.,"33-Theni","Raveendranath Kumar, P.","All India Anna Dravida MunnetraKazhagam"
-405,379.,"34-Virudhunagar","Manickam Tagore, B.",Indian National Congress
-406,380.,"35-Ramanathapuram",K. Navaskani,Indian Union Muslim League
-407,381.,"36-Thoothukkudi",Kanimozhi Karunanidhi,Dravida Munnetra Kazhagam
-408,382.,"37-Tenkasi (SC)",Dhanush.M.Kumar,Dravida Munnetra Kazhagam
-409,383.,"38-Tirunelveli","Gnanathiraviam, S.",Dravida Munnetra Kazhagam
-410,384.,"39-Kanniyakumari",Vasanthakumar. H,Indian National Congress
-411,Telangana,"","",""
-412,385.,"1-Adilabad (ST)",Soyam Bapu Rao,Bharatiya Janata Party
-413,386.,"2-Peddapalle (SC)",Venkatesh Netha Borlakunta,Telangana Rashtra Samithi
-414,387.,"3-Karimnagar",Bandi Sanjay Kumar,Bharatiya Janata Party
-415,388.,"4-Nizamabad",Arvind Dharmapuri,Bharatiya Janata Party
-416,389.,"5-Zahirabad",B.B.Patil,Telangana Rashtra Samithi
-417,390.,"6-Medak",Kotha Prabhakar Reddy,Telangana Rashtra Samithi
-418,391.,"7-Malkajgiri",Anumula Revanth Reddy,Indian National Congress
-419,392.,"8-Secunderabad",G. Kishan Reddy,Bharatiya Janata Party
-420,393.,"9-Hyderabad",Asaduddin Owaisi,"All India Majlis-E-IttehadulMuslimeen"
-421,394.,"10-Chevella",Dr. G. Ranjith Reddy,Telangana Rashtra Samithi
-422,395.,"11-Mahbubnagar",Manne Srinivas Reddy,Telangana Rashtra Samithi
-423,396.,"12-Nagarkurnool (SC)",Pothuganti Ramulu,Telangana Rashtra Samithi
-424,397.,"13-Nalgonda",Uttam Kumar Reddy Nalamada,Indian National Congress
-425,398.,"14-Bhongir",Komati Reddy Venkat Reddy,Indian National Congress
-426,399.,"15-Warangal(SC)",Dayakar Pasunoori,Telangana Rashtra Samithi
-427,400.,"16-Mahabubabad (ST)",Kavitha Malothu,Telangana Rashtra Samithi
-428,401.,"17-Khammam",Nama Nageswr Rao,Telangana Rashtra Samithi
-429,Tripura,"","",""
-430,402.,"1-Tripura West",Pratima Bhoumik,Bharatiya Janata Party
-431,403.,"2-Tripura East (ST)",Rebati Tripura,Bharatiya Janata Party
-432,Uttar Pradesh,"","",""
-433,404.,"1-Saharanpur",Haji Fazlur Rehman,Bahujan Samaj Party
-434,405.,"2-Kairana",Pradeep Kumar,Bharatiya Janata Party
-435,406.,"3-Muzaffarnagar",Sanjeev Kumar Balyan,Bharatiya Janata Party
-436,407.,"4-Bijnor",Malook Nagar,Bahujan Samaj Party
-437,408.,"5-Nagina (SC)",Girish Chandra,Bahujan Samaj Party
-438,409.,"6-Moradabad",Dr. S.T. Hasan,Samajwadi Party
-439,410.,"7-Rampur",Mohammad Azam Khan,Samajwadi Party
-440,411.,"8-Sambhal",Dr. Shafiqur Rehman Barq,Samajwadi Party
-441,412.,"9-Amroha",Kunwar Danish Ali,Bahujan Samaj Party
-442,413.,"10-Meerut",Rajendra Agarwal,Bharatiya Janata Party
-443,414.,"11-Baghpat",Dr. Satyapal Singh,Bharatiya Janata Party
-444,415.,"12-Ghaziabad",Vijay Kumar Singh,Bharatiya Janata Party
-445,416.,"13-Gautam Buddha Nagar",Dr. Mahesh Sharma,Bharatiya Janata Party
-446,417.,"14-Bulandshahr (SC)",Bhola Singh,Bharatiya Janata Party
-447,418.,"15-Aligarh",Satish Kumar Gautam,Bharatiya Janata Party
-448,419.,"16-Hathras (SC)",Rajvir Diler,Bharatiya Janata Party
-449,420.,"17-Mathura",Hema Malini,Bharatiya Janata Party
-450,421.,"18-Agra (SC)",Prof. S.P. Singh Baghel,Bharatiya Janata Party
-451,422.,"19-Fatehpur Sikri",Rajkumar Chahar,Bharatiya Janata Party
-452,423.,"20-Firozabad",Dr. Chandra Sen Jadon,Bharatiya Janata Party
-453,424.,"21-Mainpuri",Mulayam Singh Yadav,Samajwadi Party
-454,425.,"22-Etah",Rajveer Singh (Raju Bhaiya),Bharatiya Janata Party
-455,426.,"23-Badaun",Dr. Sanghmitra Maurya,Bharatiya Janata Party
-456,427.,"24-Aonla",Dharmendra Kashyap,Bharatiya Janata Party
-457,428.,"25-Bareilly",Santosh Kumar Gangwar,Bharatiya Janata Party
-458,429.,"26-Pilibhit",Feroze Varun Gandhi,Bharatiya Janata Party
-459,430.,"27-Shahjahanpur (SC)",Arun Kumar Sagar,Bharatiya Janata Party
-460,431.,"28-Kheri",Ajay Kumar,Bharatiya Janata Party
-461,432.,"29-Dhaurahra",Rekha Verma,Bharatiya Janata Party
-462,433.,"30-Sitapur",Rajesh Verma,Bharatiya Janata Party
-463,434.,"31-Hardoi (SC)",Jai Prakash,Bharatiya Janata Party
-464,435.,"32-Misrikh (SC)",Ashok Kumar Rawat,Bharatiya Janata Party
-465,436.,"33-Unnao",Swami Sakshi Ji Maharaj,Bharatiya Janata Party
-466,437.,"34-Mohanlalganj (SC)",Kaushal Kishore,Bharatiya Janata Party
-467,438.,"35-Lucknow",Rajnath Singh,Bharatiya Janata Party
-468,439.,"36-Rae Bareli",Sonia Gandhi,Indian National Congress
-469,440.,"37-Amethi",Smriti Irani,Bharatiya Janata Party
-470,441.,"38-Sultanpur",Maneka Sanjai Gandhi,Bharatiya Janata Party
-471,442.,"39-Pratapgarh",Sangam Lal Gupta,Bharatiya Janata Party
-472,443.,"40-Farrukhabad",Mukesh Rajput,Bharatiya Janata Party
-473,444.,"41-Etawah (SC)",Dr. Ram Shankar Katheria,Bharatiya Janata Party
-474,445.,"42-Kannauj",Subrat Pathak,Bharatiya Janata Party
-475,446.,"43-Kanpur",Satyadev Pachauri,Bharatiya Janata Party
-476,447.,"44-Akbarpur",Devendra Singh 'Bhole',Bharatiya Janata Party
-477,448.,"45-Jalaun (SC)",Bhanu Pratap Singh Verma,Bharatiya Janata Party
-478,449.,"46-Jhansi",Anurag Sharma,Bharatiya Janata Party
-479,450.,"47-Hamirpur","Kunwar Pushpendra SinghChandel",Bharatiya Janata Party
-480,451.,"48-Banda",R.K. Singh Patel,Bharatiya Janata Party
-481,452.,"49-Fatehpur",Niranjan Jyoti,Bharatiya Janata Party
-482,453.,"50-Kaushambi (SC)",Vinod Kumar Sonkar,Bharatiya Janata Party
-483,454.,"51-Phulpur",Keshari Devi Patel,Bharatiya Janata Party
-484,455.,"52-Allahabad",Rita Bahuguna Joshi,Bharatiya Janata Party
-485,456.,"53-Barabanki (SC)",Upendra Singh Rawat,Bharatiya Janata Party
-486,457.,"54-Faizabad",Lallu Singh,Bharatiya Janata Party
-487,458.,"55-Ambedkar Nagar",Ritesh Pandey,Bahujan Samaj Party
-488,459.,"56-Bahraich (SC)",Akshaibar Lal,Bharatiya Janata Party
-489,460.,"57-Kaiserganj",Brijbhusan Sharan Singh,Bharatiya Janata Party
-490,461.,"58-Shrawasti",Ram Shiromani,Bahujan Samaj Party
-491,462.,"59-Gonda","Kirti Vardhan Singh alias RajaBhaiya",Bharatiya Janata Party
-492,463.,"60-Domariyaganj",Jagdambika Pal,Bharatiya Janata Party
-493,464.,"61-Basti","Harish Chandra alias HarishDwivedi",Bharatiya Janata Party
-494,465.,"62-Sant Kabir Nagar",Praveen Kumar Nishad,Bharatiya Janata Party
-495,466.,"63-Maharajganj",Pankaj Choudhary,Bharatiya Janata Party
-496,467.,"64-Gorakhpur","Ravindra Shyamnarayan Shuklaalias Ravi Kishan",Bharatiya Janata Party
-497,468.,"65-Kushi Nagar",Vijay Kumar Dubey,Bharatiya Janata Party
-498,469.,"66-Deoria",Ramapati Ram Tripathi,Bharatiya Janata Party
-499,470.,"67-Bansgaon (SC)",Kamlesh Paswan,Bharatiya Janata Party
-500,471.,"68-Lalganj (SC)",Sangeeta Azad,Bahujan Samaj Party
-501,472.,"69-Azamgarh",Akhilesh Yadav,Samajwadi Party
-502,473.,"70-Ghosi",Atul Kumar Singh alias Atul Rai,Bahujan Samaj Party
-503,474.,"71-Salempur",Ravinder,Bharatiya Janata Party
-504,475.,"72-Ballia",Virendra Singh,Bharatiya Janata Party
-505,476.,"73-Jaunpur",Shyam Singh Yadav,Bahujan Samaj Party
-506,477.,"74-Machhlishahr (SC)",Bholanath (B.P. Saroj),Bharatiya Janata Party
-507,478.,"75-Ghazipur",Afzal Ansari,Bahujan Samaj Party
-508,479.,"76-Chandauli",Dr. Mahendra Nath Pandey,Bharatiya Janata Party
-509,480.,"77-Varanasi",Narendra Modi,Bharatiya Janata Party
-510,481.,"78-Bhadohi",Ramesh Chand,Bharatiya Janata Party
-511,482.,"79-Mirzapur",Anupriya Patel,Apna Dal (Soneylal)
-512,483.,"80-Robertsganj (SC)",Pakauri Lal Kol,Apna Dal (Soneylal)
-513,Uttarakhand,"","",""
-514,484.,"1-Tehri Garhwal",Mala Rajya Laxmi Shah,Bharatiya Janata Party
-515,485.,"2-Garhwal",Tirath Singh Rawat,Bharatiya Janata Party
-516,486.,"3-Almora (SC)",Ajay Tamta,Bharatiya Janata Party
-517,487.,"4-Nainital-Udhamsingh Nagar",Ajay Bhatt,Bharatiya Janata Party
-518,West Bengal,"","",""
-519,489.,"1-Coochbehar (SC)",Nisith Pramanik,Bharatiya Janata Party
-520,490.,"2-Alipurduars (ST)",John Barla,Bharatiya Janata Party
-521,491.,"3-Jalpaiguri (SC)",Dr. Jayanta Kumar Roy,Bharatiya Janata Party
-522,492.,"4-Darjeeling",Raju Bista,Bharatiya Janata Party
-523,493.,"5-Raiganj",Debasree Chaudhuri,Bharatiya Janata Party
-524,494.,"6-Balurghat",Dr. Sukanta Majumdar,Bharatiya Janata Party
-525,495.,"7-Maldaha Uttar",Khagen Murmu,Bharatiya Janata Party
-526,496.,"8-Maldaha Dakshin","Abu Hasem Khan Chowdhury(Dalu)",Indian National Congress
-527,497.,"9-Jangipur",Khalilur Rahaman,All India Trinamool Congress
-528,498.,"10-Baharampur",Adhir Ranjan Chowdhury,Indian National Congress
-529,499.,"11-Murshidabad",Abu Taher Khan,All India Trinamool Congress
-530,500.,"12-Krishnanagar",Mahua Moitra,All India Trinamool Congress
-531,501.,"13-Ranaghat (SC)",Jagannath Sarkar,Bharatiya Janata Party
-532,502.,"14-Bangaon (SC)",Shantanu Thakur,Bharatiya Janata Party
-533,503.,"15-Barrackpur",Arjun Singh,Bharatiya Janata Party
-534,504.,"16-Dum Dum",Sougata Ray,All India Trinamool Congress
-535,505.,"17-Barasat",Dr. Kakoli Ghoshdastidar,All India Trinamool Congress
-536,506.,"18-Basirhat",Nusrat Jahan Ruhi,All India Trinamool Congress
-537,507.,"19-Jaynagar (SC)",Pratima Mondal,All India Trinamool Congress
-538,508.,"20-Mathurapur (SC)",Choudhury Mohan Jatua,All India Trinamool Congress
-539,509.,"21-Diamond Harbour",Abhishek Banerjee,All India Trinamool Congress
-540,510.,"22-Jadavpur",Mimi Chakraborty,All India Trinamool Congress
-541,511.,"23-Kolkata Dakshin",Mala Roy,All India Trinamool Congress
-542,512.,"24-Kolkata Uttar",Bandyopadhyay Sudip,All India Trinamool Congress
-543,513.,"25-Howrah",Prasun Banerjee,All India Trinamool Congress
-544,514.,"26-Uluberia",Sajda Ahmed,All India Trinamool Congress
-545,515.,"27-Sreerampur",Kalyan Banerjee,All India Trinamool Congress
-546,516.,"28-Hooghly",Locket Chatterjee,Bharatiya Janata Party
-547,517.,"29-Arambag (SC)",Aparupa Poddar (Afrin Ali),All India Trinamool Congress
-548,518.,"30-Tamluk",Adhikari Dibyendu,All India Trinamool Congress
-549,519.,"31-Kanthi",Adhikari Sisir,All India Trinamool Congress
-550,520.,"32-Ghatal",Adhikari Deepak (Dev),All India Trinamool Congress
-551,521.,"33-Jhargram (ST)",Kunar Hembram,Bharatiya Janata Party
-552,522.,"34-Medinipur",Dilip Ghosh,Bharatiya Janata Party
-553,523.,"35-Purulia",Jyotirmay Singh Mahato,Bharatiya Janata Party
-554,524.,"36-Bankura",Dr. Subhas Sarkar,Bharatiya Janata Party
-555,525.,"37-Bishnupur (SC)",Khan Saumitra,Bharatiya Janata Party
-556,526.,"38-Bardhaman Purba (SC)",Sunil Kumar Mondal,All India Trinamool Congress
-557,527.,"39-Bardhaman-Durgapur",S.S. Ahluwalia,Bharatiya Janata Party
-558,528.,"40-Asansol",Babul Supriyo,Bharatiya Janata Party
-559,529.,"41-Bolpur (SC)",Asit Kumar Mal,All India Trinamool Congress
-560,530.,"42-Birbhum",Satabdi Roy,All India Trinamool Congress
-561,Andaman & Nicobar Islands,"","",""
-562,531.,"1-Andaman & Nicobar Islands",Kuldeep Rai Sharma,Indian National Congress
-563,Chandigarh,"","",""
-564,532.,"1-Chandigarh",Kirron Kher,Bharatiya Janata Party
-565,Dadra & Nagar Haveli,"","",""
-566,533.,"1-Dadra & Nagar Haveli (ST)",Delkar Mohanbhai Sanjibhai,Independent
-567,Daman & Diu,"","",""
-568,534.,"1-Daman & Diu",Lalubhai Babubhai Patel,Bharatiya Janata Party
-569,National Capital Territory of Delhi,"","",""
-570,535.,"1-Chandni Chowk",Harsh Vardhan,Bharatiya Janata Party
-571,536.,"2-North East Delhi",Manoj Tiwari,Bharatiya Janata Party
-572,537.,"3-East Delhi",Gautam Gambhir,Bharatiya Janata Party
-573,538.,"4-New Delhi",Meenakashi Lekhi,Bharatiya Janata Party
-574,539.,"5-North West Delhi (SC)",Hans Raj Hans,Bharatiya Janata Party
-575,540.,"6-West Delhi",Parvesh Sahib Singh Verma,Bharatiya Janata Party
-576,541.,"7-South Delhi",Ramesh Bidhuri,Bharatiya Janata Party
-577,Lakshadweep,"","",""
-578,542.,"1-Lakshadweep (ST)",Mohammed Faizal P. P.,Nationalist Congress Party
-579,Puducherry,"","",""
-580,543.,"1-Puducherry",Ve. Vaithilingam,Indian National Congress
