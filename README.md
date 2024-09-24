@@ -4,7 +4,7 @@ Manthan is an interactive web application designed to analyze and compare the 20
 
 Data Sources:
 
-1. [Election Commission of India]("https://www.eci.gov.in")
-2. [Voter Turnout]("https://www.indiavotes.com/")
-3. [Candidate Background]("https://myneta.info/")
-4. [Socio-Demographic Data ]("https://www.census2011.co.in/")
+1. [Election Commission of India](https://www.eci.gov.in)
+2. [Voter Turnout](https://www.indiavotes.com/)
+3. [Candidate Background](https://myneta.info/)
+4. [Socio-Demographic Data ](https://www.census2011.co.in/)
