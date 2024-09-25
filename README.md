@@ -18,6 +18,7 @@ The data was extracted from the following key sources:
 2. [Voter Turnout](https://www.indiavotes.com/) – Voter turnout statistics for different constituencies.
 3. [Candidate Background](https://myneta.info/) – Information on candidates' education, assets, and legal cases.
 4. [Socio-Demographic Data](https://www.census2011.co.in/) – Census data providing insights into social and economic demographics across constituencies.
+5. [World Bank Open Data](https://data.worldbank.org/indicator) - Provides free and open access to global development data
 
 ## Tools and Technologies
 
