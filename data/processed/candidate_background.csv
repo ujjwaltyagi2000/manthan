@@ -1,4 +1,4 @@
-Candidate Name,Party,Age,State,Criminal Cases,Education,Total Assets,Liabilities,Year
+candidate_name,party,age,state,criminal_cases,education,total_assets,liabilities,year
 Ayan Mandal,AITC,30,Andaman and Nicobar Islands,0,Graduate,7270440,1500000,2019
 C G Saji Kumar,All India Hindustan Congress Party,48,Andaman and Nicobar Islands,0,12th Pass,120000,0,2019
 C U Rasheed,IND,34,Andaman and Nicobar Islands,0,12th Pass,202808,1700000,2019
