@@ -1,4 +1,4 @@
-state,number_of_households,population,males,female,child_population_pct,literacy_pct,sex-ratio,category
+state,number_of_households,population,males,female,child_population_pct,literacy_pct,sex_ratio,category
 Andaman and Nicobar Islands,,,,,,,,SC
 Andaman and Nicobar Islands,6910,28530,14731,13799,13.47,75.58,937,ST
 Andhra Pradesh,3429973,13878078,6913047,6965031,11.17,62.28,1008,SC
