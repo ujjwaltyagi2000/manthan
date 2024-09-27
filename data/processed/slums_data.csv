@@ -1,4 +1,4 @@
-State,Slums (%),Households,Population,Male,Female,Child Population,SC,ST,Literacy (%)
+state,slums_pct,households,population,male,female,child_population,sc,st,literacy_pct
 Andaman and Nicobar Islands,3.72,3324,14172,7386,6786,1588,0,48,82.8
 Andhra Pradesh,12.04,2431474,10186934,5103377,5083557,1149779,1428212,270556,75.32
 Arunachal Pradesh,1.12,3479,15562,8029,7533,2226,0,4631,69.39

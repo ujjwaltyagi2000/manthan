@@ -1,4 +1,4 @@
-Candidate Name,Party,Age,State,Criminal Cases,Education,Total Assets,Liabilities,Year
+candidate_name,party,age,state,criminal_cases,education,total_assets,liabilities,year
 Ayan Mandal,AITC,30,Andaman and Nicobar Islands,0,Graduate,7270440,1500000,2019
 C G Saji Kumar,All India Hindustan Congress Party,48,Andaman and Nicobar Islands,0,12th Pass,120000,0,2019
 C U Rasheed,IND,34,Andaman and Nicobar Islands,0,12th Pass,202808,1700000,2019
@@ -156,7 +156,7 @@ Kanthiraj Devanand,BSP,64,Andhra Pradesh,0,Post Graduate,34436000,1200000,2019
 Kanumuru Bapiraju,INC,71,Andhra Pradesh,1,10th Pass,0,0,2019
 Kanumuru Raghu Rama Krishna Raju,YSRCP,57,Andhra Pradesh,3,Post Graduate,3259405378,1014467354,2019
 Karimulla Khan Pattan,Navataram Party,40,Andhra Pradesh,0,Post Graduate,1677823,0,2019
-Karra Siva,Pyramid Party of India,Unknown,Andhra Pradesh,0,12th Pass,15000,0,2019
+Karra Siva,Pyramid Party of India,,Andhra Pradesh,0,12th Pass,15000,0,2019
 Kasula Rajasekhar,Pyramid Party of India,46,Andhra Pradesh,0,10th Pass,4650560,1808144,2019
 Kattamanchi Prabhakar,IND,51,Andhra Pradesh,0,Post Graduate,0,0,2019
 Kattepogu Vijay Kumar,Pyramid Party of India,53,Andhra Pradesh,0,5th Pass,454000,0,2019
@@ -284,7 +284,7 @@ Shaik Mastanvali,INC,53,Andhra Pradesh,1,Post Graduate,62806111,0,2019
 Shaik Nayub Kamal,Janasena Party,50,Andhra Pradesh,0,12th Pass,55264531,5468120,2019
 Shruti Devi Vyricherla,INC,46,Andhra Pradesh,0,Graduate Professional,23592023,0,2019
 Sidda Raghava Rao,TDP,61,Andhra Pradesh,0,Graduate,0,0,2019
-Siva Chandra Reddy Komma,Anna YSR Congress Party,Unknown,Andhra Pradesh,0,Post Graduate,5160000,1100000,2019
+Siva Chandra Reddy Komma,Anna YSR Congress Party,,Andhra Pradesh,0,Post Graduate,5160000,1100000,2019
 Siva Prasad Padala,Navarang Congress Party,62,Andhra Pradesh,0,10th Pass,1650000,0,2019
 Somanath Deshmukh,IND,50,Andhra Pradesh,0,10th Pass,9327000,300000,2019
 Sri Rama Chandra Singareddy,BJP,50,Andhra Pradesh,0,Graduate,84971019,15886451,2019
@@ -311,7 +311,7 @@ Valluru Venkateswara Rao,Pyramid Party of India,78,Andhra Pradesh,0,Graduate,218
 Vampuru Gangulaiah,Janasena Party,49,Andhra Pradesh,3,10th Pass,0,0,2019
 Vanga Geetha Viswanatham,YSRCP,55,Andhra Pradesh,0,Post Graduate,202528594,34416878,2019
 Vangala Parameswara Reddy.,IND,40,Andhra Pradesh,3,10th Pass,2300000,2500000,2019
-Vasamsetty Venakta Ramana,AIFB,Unknown,Andhra Pradesh,0,10th Pass,4850000,2170000,2019
+Vasamsetty Venakta Ramana,AIFB,,Andhra Pradesh,0,10th Pass,4850000,2170000,2019
 Venkata Sivarama Raju Vetukuri,TDP,48,Andhra Pradesh,1,Graduate,60940339,0,2019
 Venkata Trindha Rao Veluri,IND,52,Andhra Pradesh,0,Graduate Professional,0,0,2019
 Venkatesan Baburao,India Praja Bandhu Party,34,Andhra Pradesh,0,Graduate,850000,0,2019
@@ -1788,7 +1788,7 @@ Janak Raj Atwal,BSP,50,Haryana,0,Post Graduate,18517000,1500000,2019
 Jaswant,Bhartiya Shakti Chetna Party,41,Haryana,0,8th Pass,1015000,50000,2019
 Jatinder Singh,IND,36,Haryana,0,10th Pass,332945,0,2019
 Jawahar Singh Pahal,Bhartiya Shakti Chetna Party,47,Haryana,0,Graduate,0,0,2019
-Jyoti,Navnirman Party,Unknown,Haryana,0,8th Pass,2007635,230013,2019
+Jyoti,Navnirman Party,,Haryana,0,8th Pass,2007635,230013,2019
 K P Singh,IND,60,Haryana,0,Graduate Professional,19195000,0,2019
 Kaka Sahil Thakral,Sapaks Party,25,Haryana,0,Others,71759,0,2019
 Kanwaljit Singh,IND,31,Haryana,0,Graduate,530100,0,2019
@@ -1824,7 +1824,7 @@ Navin Jaihind,AAP,37,Haryana,4,Doctorate,645550,0,2019
 Nayab Singh,BJP,49,Haryana,0,Graduate Professional,35785621,5720000,2019
 Nirmal Singh,Jannayak Janta Party,37,Haryana,0,12th Pass,0,0,2019
 Nirmal Singh,INC,66,Haryana,1,Graduate,126385687,704496,2019
-Nitin,Aapki Apni Party (Peoples),Unknown,Haryana,3,10th Pass,322000,0,2019
+Nitin,Aapki Apni Party (Peoples),,Haryana,3,10th Pass,322000,0,2019
 Om Parkash,SUCI(C),54,Haryana,0,Graduate Professional,431718,0,2019
 Pankaj,BSP,30,Haryana,0,10th Pass,3462000,0,2019
 Pardeep Chahal,IND,32,Haryana,0,12th Pass,0,0,2019
@@ -1883,7 +1883,7 @@ Satbir,Aapki Apni Party (Peoples),44,Haryana,0,10th Pass,336000,0,2019
 Satinder Rathi,IND,52,Haryana,0,Graduate,22239323,10375000,2019
 Satish Kumar Singal,IND,59,Haryana,0,Post Graduate,10190000,0,2019
 Satish Raj,IND,50,Haryana,0,Graduate,0,0,2019
-Satya Pal,IND,Unknown,Haryana,0,Graduate Professional,24580075,107400,2019
+Satya Pal,IND,,Haryana,0,Graduate Professional,24580075,107400,2019
 Satyavir Singh,IND,43,Haryana,0,Graduate Professional,3674081,0,2019
 Selja,INC,56,Haryana,0,Post Graduate,240508152,0,2019
 Sharvan Kumar,SUCI(C),51,Haryana,0,10th Pass,20142297,1029600,2019
@@ -1990,7 +1990,7 @@ Dr. Jitendra Singh,BJP,62,Jammu and Kashmir,0,Post Graduate,70827203,0,2019
 Engineer Rashid,IND,54,Jammu and Kashmir,0,Others,8000000,6000000,2019
 Er. Ghulam Mustafa Chowdhary,IND,37,Jammu and Kashmir,0,Others,19050000,0,2019
 Farooq Abdullah,Jammu & Kashmir National Conference,83,Jammu and Kashmir,1,Graduate Professional,121904435,0,2019
-Firdous Ahmed Bawani,IND,Unknown,Jammu and Kashmir,0,12th Pass,0,0,2019
+Firdous Ahmed Bawani,IND,,Jammu and Kashmir,0,12th Pass,0,0,2019
 Garib Singh,IND,58,Jammu and Kashmir,0,10th Pass,2040000,25000,2019
 Gh. Mohd. Wani,IND,45,Jammu and Kashmir,0,12th Pass,31000,0,2019
 Ghulam Ahmad Mir,INC,60,Jammu and Kashmir,0,Graduate,140146018,0,2019
@@ -2017,7 +2017,7 @@ Mohd Ayub,Navarang Congress Party,55,Jammu and Kashmir,1,Graduate,27075200,49000
 Mohd Maqbool War,BJP,61,Jammu and Kashmir,0,Graduate,11320000,0,2019
 Mohd Younis,Jammu & Kashmir Pir Panjal Awami Party,54,Jammu and Kashmir,0,Graduate Professional,0,0,2019
 Nazir Ahmad Lone,Rashtriya Jankranti Party,46,Jammu and Kashmir,0,8th Pass,6200000,1800000,2019
-Nazir Ahmad Sofi,Manvadhikar National Party,Unknown,Jammu and Kashmir,0,10th Pass,4270000,150000,2019
+Nazir Ahmad Sofi,Manvadhikar National Party,,Jammu and Kashmir,0,10th Pass,4270000,150000,2019
 Nisar Ahmad Wani,Jammu & Kashmir National Panthers Party,36,Jammu and Kashmir,0,10th Pass,30000,0,2019
 Perseen Singh,IND,39,Jammu and Kashmir,0,12th Pass,135000,0,2019
 Prof. Bhim Singh,Jammu & Kashmir National Panthers Party,78,Jammu and Kashmir,0,Post Graduate,0,0,2019
@@ -2036,7 +2036,7 @@ Satish Poonchi,IND,70,Jammu and Kashmir,0,10th Pass,5444000,0,2019
 Shaber Ahmed,IND,34,Jammu and Kashmir,0,Graduate,79200,0,2019
 Shams Khwaja,IND,58,Jammu and Kashmir,0,Post Graduate,44240,20500000,2019
 Shazad Shabnam,IND,27,Jammu and Kashmir,1,10th Pass,0,0,2019
-Sheikh Khalid Jehangir,BJP,Unknown,Jammu and Kashmir,1,12th Pass,45300000,3800000,2019
+Sheikh Khalid Jehangir,BJP,,Jammu and Kashmir,1,12th Pass,45300000,3800000,2019
 Showkat Hussain Khan,JD(U),37,Jammu and Kashmir,0,8th Pass,7590000,0,2019
 Sofi Yousuf,BJP,53,Jammu and Kashmir,1,Illiterate,11710000,0,2019
 Subash Chander,IND,53,Jammu and Kashmir,0,8th Pass,7480000,0,2019
@@ -2266,7 +2266,7 @@ Sushma Mehta,CPI(ML)(L),40,Jharkhand,3,12th Pass,3545751,412090,2019
 Tekochand Mahto,IND,28,Jharkhand,0,Graduate Professional,2608338,50000,2019
 Thakuroon Soren,IND,37,Jharkhand,1,5th Pass,0,0,2019
 Tuklal Nayak,Hindusthan Nirman Dal,58,Jharkhand,0,Post Graduate,2497500,0,2019
-Uday Kumar Paswan,Jan Sangharsh Virat Party,Unknown,Jharkhand,0,10th Pass,477000,0,2019
+Uday Kumar Paswan,Jan Sangharsh Virat Party,,Jharkhand,0,10th Pass,477000,0,2019
 Umesh Kumar Paswan,Voters Party International,34,Jharkhand,0,10th Pass,1000000,50000,2019
 Umesh Paswan,IND,55,Jharkhand,0,Literate,179496,20000,2019
 Varun Kumar,IND,29,Jharkhand,0,Graduate,0,0,2019
@@ -2660,7 +2660,7 @@ Shankar Pandappa Rathod,IND,50,Karnataka,0,10th Pass,10775000,500000,2019
 Sharad,IND,46,Karnataka,0,12th Pass,0,0,2019
 Shashikumar R N,IND,29,Karnataka,0,Post Graduate,2177102,600000,2019
 Shashikumar S.Gowda,IND,37,Karnataka,0,10th Pass,135000,0,2019
-Shekar Havanje,Republican Party of India (Karnataka),Unknown,Karnataka,3,10th Pass,1265000,100000,2019
+Shekar Havanje,Republican Party of India (Karnataka),,Karnataka,3,10th Pass,1265000,100000,2019
 Shekara Naik,IND,63,Karnataka,0,Graduate,40409500,3112000,2019
 Shiva Manjesh K.S.,IND,27,Karnataka,0,Graduate Professional,0,0,2019
 Shivaputrappa. Gumagera,BSP,49,Karnataka,0,5th Pass,8475000,1200000,2019
@@ -3094,7 +3094,7 @@ Ravi Kumar,IND,53,Lakshadweep,0,Graduate,39705621,334500,2019
 Ravi Kumar,IND,33,Lakshadweep,0,Graduate,2471300,241028,2019
 Ravinder Paul Sehgal,Pyramid Party of India,70,Lakshadweep,0,Post Graduate,45725073,73782,2019
 Ravindra,Kanshiram Bahujan Dal,43,Lakshadweep,0,8th Pass,0,0,2019
-Roshan Kumar Choudhary,IND,Unknown,Lakshadweep,0,12th Pass,29000,0,2019
+Roshan Kumar Choudhary,IND,,Lakshadweep,0,12th Pass,29000,0,2019
 S N Singh,IND,72,Lakshadweep,1,Doctorate,28183644,0,2019
 Sameer Mirza,Bharat Prabhat Party,29,Lakshadweep,0,12th Pass,660200,0,2019
 Sandeep,Rashtriya Jan Adhikar Party,36,Lakshadweep,0,8th Pass,1206152,0,2019
@@ -3392,7 +3392,7 @@ Omprakash Shakya,Hindusthan Nirman Dal,51,Madhya Pradesh,1,Post Graduate,2112000
 Pandit Devendra Sharma,Sapaks Party,31,Madhya Pradesh,0,Graduate,32000,0,2019
 Pankaj Sanghvi,INC,58,Madhya Pradesh,4,Graduate,0,0,2019
 Parmanand Tolani,IND,59,Madhya Pradesh,0,5th Pass,2471000,0,2019
-Parvat Singh,Ambedkarite Party of India,Unknown,Madhya Pradesh,0,Post Graduate,56000,0,2019
+Parvat Singh,Ambedkarite Party of India,,Madhya Pradesh,0,Post Graduate,56000,0,2019
 Parwat Singh,IND,27,Madhya Pradesh,0,8th Pass,211550,0,2019
 Patiram Shakya,RPI(A),43,Madhya Pradesh,0,10th Pass,1821000,90000,2019
 Pawan Kumar Goyal,Swatantra Jantaraj Party,44,Madhya Pradesh,2,Post Graduate,0,0,2019
@@ -3465,7 +3465,7 @@ Ramlakhan Meena,Rashtriya Krantikari Samajwadi Party,28,Madhya Pradesh,0,Graduat
 Ramnaresh Jatav,IND,38,Madhya Pradesh,0,Graduate Professional,451164,0,2019
 Ramnaresh Tiwari,Samagra Utthan Party,34,Madhya Pradesh,0,12th Pass,158000,0,2019
 Ramniwas Rawat,INC,59,Madhya Pradesh,1,Post Graduate,44669161,1052042,2019
-Ramraj,IND,Unknown,Madhya Pradesh,0,Post Graduate,0,0,2019
+Ramraj,IND,,Madhya Pradesh,0,Post Graduate,0,0,2019
 Ramraj Ram,BSP,78,Madhya Pradesh,0,Post Graduate,520000,0,2019
 Ramsahay,IND,49,Madhya Pradesh,0,Literate,6134,0,2019
 Ramsushil Sharma,Samagra Utthan Party,46,Madhya Pradesh,0,12th Pass,14726000,1950000,2019
@@ -4711,7 +4711,7 @@ Charanjit Singh,SAD,82,Punjab,0,Graduate Professional,38633246,2297303,2019
 Daljit Singh,Peoples Party of India(secular),40,Punjab,0,Others,202000,0,2019
 Darbara Singh Guru,SAD,66,Punjab,1,Post Graduate,0,0,2019
 Darshan Singh,IND,39,Punjab,0,8th Pass,335000,0,2019
-Darshan Singh,Jai Jawan Jai Kisan Party,Unknown,Punjab,0,12th Pass,4728500,94900,2019
+Darshan Singh,Jai Jawan Jai Kisan Party,,Punjab,0,12th Pass,4728500,94900,2019
 Daswinder Kaur,CPI,55,Punjab,0,Graduate,661000,0,2019
 Davinder Singh,IND,41,Punjab,0,10th Pass,1919000,0,2019
 Dayal Chan,IND,60,Punjab,0,Illiterate,0,0,2019
@@ -4871,7 +4871,7 @@ Ramesh Lal,Bahujan Mukti Party,51,Punjab,0,8th Pass,3614463,110300,2019
 Randhir Singh Khangura,IND,49,Punjab,0,10th Pass,1960500,256646,2019
 Ranveer Singh Rana,IND,39,Punjab,0,8th Pass,0,0,2019
 Ravinder Pal Singh,IND,30,Punjab,1,8th Pass,170000,0,2019
-Ravjot Singh,AAP,Unknown,Punjab,1,Graduate Professional,32729653,6160003,2019
+Ravjot Singh,AAP,,Punjab,1,Graduate Professional,32729653,6160003,2019
 Ravneet Singh Bittu,INC,43,Punjab,3,12th Pass,54281096,3331266,2019
 Rishabh Sharma,IND,25,Punjab,0,Graduate Professional,1686400,0,2019
 Rtd. Subedar Major Jagdev Singh Raipur,Bhartiya Lok Seva Dal,50,Punjab,0,12th Pass,0,0,2019
@@ -4903,7 +4903,7 @@ Sukhjit Singh,Bhartiya Lok Seva Dal,39,Punjab,0,10th Pass,0,0,2019
 Sukhpal Singh Khaira,Punjab Ekta Party,54,Punjab,1,12th Pass,598746355,13836396,2019
 Sukhwant Singh,IND,57,Punjab,0,10th Pass,1696000,0,2019
 Sukhwinder Singh,IND,46,Punjab,0,Graduate,1140000,0,2019
-Sukrit Sharda,IND,Unknown,Punjab,0,Graduate,3333000,0,2019
+Sukrit Sharda,IND,,Punjab,0,Graduate,3333000,0,2019
 Suman Singh,IND,37,Punjab,0,Illiterate,0,0,2019
 Sunaina,IND,31,Punjab,0,Graduate,1150000,0,2019
 Sunil Kumar Bhatti,IND,44,Punjab,0,8th Pass,331000,0,2019
@@ -6141,7 +6141,7 @@ Umar Khan,Nagrik Ekta Party,29,Tripura,0,Post Graduate,0,0,2019
 Umesh Chandra Katiyar,Al-Hind Party,49,Tripura,0,Graduate,13000,0,2019
 Umesh Kumar,Rashtriya Jan Adhikar Party,34,Tripura,0,Literate,2980000,0,2019
 Umesh Singh,Bhartiya Shakti Chetna Party,38,Tripura,0,10th Pass,1355000,0,2019
-Upendra Singh Rajput,Bharatiya Kisan Parivartan Party,Unknown,Tripura,0,Graduate Professional,2006000,0,2019
+Upendra Singh Rajput,Bharatiya Kisan Parivartan Party,,Tripura,0,Graduate Professional,2006000,0,2019
 Upendra Singh Rawat,BJP,51,Tripura,1,Post Graduate,0,0,2019
 Urvashi Singh,IND,34,Tripura,0,Graduate Professional,1522700,0,2019
 Usha Agarwal,IND,64,Tripura,0,Post Graduate,5857000,0,2019
@@ -6262,7 +6262,7 @@ Chandan Kumar Yadav,Rashtriya Ulama Council,31,Tripura,2,Graduate,306073,0,2019
 Chandra Bhadra Singh,BSP,43,Tripura,6,Post Graduate,106096052,0,2019
 Chandra Bhan Sankhwar,Rashtriya Janmat Party,56,Tripura,0,Graduate Professional,0,0,2019
 Chandra Mani Pandey,IND,39,Tripura,0,Post Graduate,15077000,0,2019
-Chandra Prakash Pandey,Naitik Party,Unknown,Tripura,0,12th Pass,153000,0,2019
+Chandra Prakash Pandey,Naitik Party,,Tripura,0,12th Pass,153000,0,2019
 Chandradev Ram Yadav,BSP,66,Tripura,3,Post Graduate,17297000,2000000,2019
 Chandrash,INC,37,Tripura,0,Post Graduate,64076173,24438446,2019
 Chandrashekhar,Bharat Prabhat Party,48,Tripura,0,Post Graduate,0,0,2019
@@ -6273,7 +6273,7 @@ Chattar Alias Chatrapal Singh Nishad,Bahujan Mukti Party,48,Tripura,0,Not Given,
 Chaudhary Basheer,IND,42,Tripura,10,8th Pass,0,0,2019
 Chaudhary Mohkam,Pragatishil Samajwadi Party (Lohia),56,Tripura,2,10th Pass,66000,0,2019
 Chedi Lal,Bharat Prabhat Party,58,Tripura,0,12th Pass,13416835,0,2019
-Chheddu,IND,Unknown,Tripura,0,Literate,26000,0,2019
+Chheddu,IND,,Tripura,0,Literate,26000,0,2019
 Chhotelal,IND,55,Tripura,0,Post Graduate,1356000,0,2019
 Chhotelal,Pragatishil Samajwadi Party (Lohia),37,Tripura,0,12th Pass,0,0,2019
 Chotte Lal,IND,65,Tripura,0,5th Pass,480000,0,2019
@@ -6350,7 +6350,7 @@ Ganesh Rawat,Pragatishil Samajwadi Party (Lohia),46,Tripura,0,12th Pass,64381199
 Gangaram,IND,54,Tripura,0,8th Pass,28000,0,2019
 Gaurav Singh,IND,26,Tripura,0,Graduate,3631000,25000,2019
 Gauri Shankar,Kisan Raksha Party,48,Tripura,2,12th Pass,2079584,12834,2019
-Gayatri Prasad,Bhartiya Shakti Chetna Party,Unknown,Tripura,0,Post Graduate,0,0,2019
+Gayatri Prasad,Bhartiya Shakti Chetna Party,,Tripura,0,Post Graduate,0,0,2019
 Geeta,Ambedkar Samaj Party,40,Tripura,2,Literate,137786,0,2019
 Geeta Devi,Bahujan Awam Party,39,Tripura,0,5th Pass,31000,0,2019
 Girdhar Gopal Tripathi,CPI,77,Tripura,0,Post Graduate,31397972,308458,2019
@@ -6435,7 +6435,7 @@ Jitendra Singh,Pragatishil Samajwadi Party (Lohia),48,Tripura,1,12th Pass,992386
 Juber Ahmad,IND,44,Tripura,0,12th Pass,2708670,243387,2019
 Kaif Raza Khan,IND,29,Tripura,0,Graduate,30000,0,2019
 Kailash Chauhan,Janta Kranti Party (Rashtravadi),50,Tripura,0,Literate,5719229,1330000,2019
-Kailash Kumar Mishra,AIFB,Unknown,Tripura,0,Graduate,0,0,2019
+Kailash Kumar Mishra,AIFB,,Tripura,0,Graduate,0,0,2019
 Kailash Nath,Suheldev Bhartiya Samaj Party,40,Tripura,0,8th Pass,6685000,0,2019
 Kalpana Khard,IND,51,Tripura,0,Literate,3853811,0,2019
 Kalpana Rawat,Bharat Prabhat Party,32,Tripura,0,Graduate Professional,20693765,0,2019
@@ -6544,7 +6544,7 @@ Matloob Ahmad,Pragatishil Samajwadi Party (Lohia),43,Tripura,1,8th Pass,0,0,2019
 Meera Devi,Swatantra Jantaraj Party,26,Tripura,0,Graduate,80000,0,2019
 Mishri Lal,Swatantra Jantaraj Party,30,Tripura,0,Graduate,448500,0,2019
 Mo Fahim,Indian National League,65,Tripura,0,10th Pass,15485250,0,2019
-Mo Hasan Lahari,IND,Unknown,Tripura,1,8th Pass,4068500,179000,2019
+Mo Hasan Lahari,IND,,Tripura,1,8th Pass,4068500,179000,2019
 Mo Javed Ansari,Vishwa Manav Samaj Kalyan Parishad,36,Tripura,0,5th Pass,0,0,2019
 Mo. Aslam Alias Pasha,Jan Shakti Dal,48,Tripura,0,Literate,711541,0,2019
 Mo. Hanif,Pragatishil Samajwadi Party (Lohia),44,Tripura,0,12th Pass,16759000,3250000,2019
@@ -6611,7 +6611,7 @@ Nitin Mohan,IND,40,Tripura,0,Post Graduate,359091,0,2019
 Om Guru Charandas,Sanatan Sanskriti Raksha Dal,49,Tripura,0,10th Pass,246707,0,2019
 Om Prakash Mishra,IND,35,Tripura,0,Graduate,680000,0,2019
 Om Prakash Pandey,IND,28,Tripura,0,Graduate Professional,0,0,2019
-Ombeer Lodhi,Jan Seva Sahayak Party,Unknown,Tripura,0,10th Pass,7090100,0,2019
+Ombeer Lodhi,Jan Seva Sahayak Party,,Tripura,0,10th Pass,7090100,0,2019
 Omkar,Bahujan Mukti Party,33,Tripura,0,10th Pass,1280000,0,2019
 Omprakash,Swatantra Jantaraj Party,31,Tripura,0,Graduate Professional,40000,0,2019
 Omvati Devi,INC,69,Tripura,0,10th Pass,37158570,0,2019
@@ -6718,7 +6718,7 @@ Rajesh Vishwakarma,Moulik Adhikar Party,36,Tripura,0,12th Pass,2107000,0,2019
 Rajiv,Suheldev Bhartiya Samaj Party,33,Tripura,0,Graduate,0,0,2019
 Rajiv Choudhary,Bhartiya Kisan Party,45,Tripura,0,12th Pass,81718444,0,2019
 Rajiv Talwar,IND,43,Tripura,0,Graduate,4147154,0,2019
-Rajkeshar,Sajag Samaj Party,Unknown,Tripura,0,Graduate Professional,2335000,0,2019
+Rajkeshar,Sajag Samaj Party,,Tripura,0,Graduate Professional,2335000,0,2019
 Rajkumar,Vikas Insaf Party,40,Tripura,0,Graduate,30000,0,2019
 Rajkumar Chahar,BJP,52,Tripura,3,Graduate,0,0,2019
 Rajkumari Ratna Singh,INC,57,Tripura,6,Graduate,362051733,1008000,2019
@@ -6801,7 +6801,7 @@ Ravindra Singh Katar,Bhartiya Navodaya Party,43,Tripura,0,Post Graduate,1800000,
 Ravindra Singh Yadav,IND,45,Tripura,0,Post Graduate,1182079,0,2019
 Reena Devi,National Bhrashtachar Mukt Party,32,Tripura,0,8th Pass,120000,0,2019
 Reetu Verma,IND,41,Tripura,1,Graduate,0,0,2019
-Rekha,Hindusthan Nirman Dal,Unknown,Tripura,0,Others,13315000,700000,2019
+Rekha,Hindusthan Nirman Dal,,Tripura,0,Others,13315000,700000,2019
 Rekha Verma,BJP,45,Tripura,3,12th Pass,24735488,7095916,2019
 Rina,Saaf Party,31,Tripura,0,5th Pass,143460,0,2019
 Rinku Sahani,SHS,25,Tripura,0,Graduate,25000,0,2019
@@ -6934,7 +6934,7 @@ Shyama Charan Gupta,SP,74,Tripura,0,Graduate Professional,0,0,2019
 Shyamacharan,IND,42,Tripura,0,12th Pass,2153810,0,2019
 Shyamlal,Bharat Prabhat Party,32,Tripura,0,Post Graduate,3055000,0,2019
 Shyamnarayan Yadav,Pragatishil Samajwadi Party (Lohia),49,Tripura,1,12th Pass,8011000,0,2019
-Sita,Bhartiya Shakti Chetna Party,Unknown,Tripura,0,5th Pass,3030000,0,2019
+Sita,Bhartiya Shakti Chetna Party,,Tripura,0,5th Pass,3030000,0,2019
 Smriti Irani,BJP,43,Tripura,0,12th Pass,0,0,2019
 Sohan Pal Alias Sonpal,Bhartiya Krishak Dal,58,Tripura,0,8th Pass,2352000,70000,2019
 Sonia Gandhi,INC,72,Tripura,1,Others,118263916,0,2019
@@ -6974,7 +6974,7 @@ Surya Kumar,IND,32,Tripura,0,10th Pass,0,0,2019
 Sushil,IND,38,Tripura,2,12th Pass,61208,0,2019
 Sushil Kumar,Aadarsh Sangram Party,29,Tripura,0,12th Pass,309000,0,2019
 Sushila Dinkar,Bahujan Mukti Party,56,Tripura,0,Post Graduate,6163500,0,2019
-Swami Paglanand,IND,Unknown,Tripura,0,12th Pass,6385955,325000,2019
+Swami Paglanand,IND,,Tripura,0,12th Pass,6385955,325000,2019
 Swami Sachchidanand Hari Sakshi,BJP,63,Tripura,4,Doctorate,0,0,2019
 Syed Rashid Ali,IND,41,Tripura,0,Post Graduate,10118000,0,2019
 Tabassum Begum,SP,48,Tripura,0,10th Pass,21404646,1193748,2019
@@ -7500,7 +7500,7 @@ Shanti Prasad Bhatt,UKD,53,Uttarakhand,2,12th Pass,1289500,0,2019
 Shishupal Singh,IND,46,Uttarakhand,0,12th Pass,323000,0,2019
 Sukumar Vishwash,IND,68,Uttarakhand,0,Literate,0,0,2019
 Sunder Dhauni,BSP,41,Uttarakhand,0,Post Graduate,2870000,1500000,2019
-Surendra Kumar Upadhayay,UKD,Unknown,Uttarakhand,0,Graduate,4278300,2100000,2019
+Surendra Kumar Upadhayay,UKD,,Uttarakhand,0,Graduate,4278300,2100000,2019
 Tirath Singh Rawat,BJP,55,Uttarakhand,0,Post Graduate,15032657,3500000,2019
 Tribirendra Singh Rawat,Uttarakhand Kranti Dal (Democratic),30,Uttarakhand,0,12th Pass,3941321,0,2019
 Vimla Arya,UTTARAKHAND PARIVARTAN PARTY,32,Uttarakhand,0,Graduate,0,0,2019

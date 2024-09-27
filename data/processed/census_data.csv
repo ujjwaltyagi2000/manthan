@@ -1,4 +1,4 @@
-State,Type,Population Total,Male,Female,Male Literates,Female Literates,Total Literates,Male SC,Female SC,Total SC,Male ST,Female ST,Total ST
+state,type,population_total,male,female,male_literates,female_literates,total_literates,male_sc,female_sc,total_sc,male_st,female_st,total_st
 Andaman and Nicobar Islands,Rural,237093,126287,110806,99960,78065,178025,0,0,0,13837,12878,26715
 Andaman and Nicobar Islands,Urban,143488,76584,66904,64417,51839,116256,0,0,0,894,921,1815
 Andaman and Nicobar Islands,Total,380581,202871,177710,164377,129904,294281,0,0,0,14731,13799,28530
