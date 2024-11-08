@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from scripts.supabase_utils import fetch_data
 
 
 st.title('MANTHAN')
@@ -37,3 +38,6 @@ st.write('Here we will analyse the results of Lok Sabha elections of 2019 and 20
 
 # st.subheader('Map of all pickups at %s:00' % hour_to_filter)
 # st.map(filtered_data)
+
+df = fetch_data('winning_turnout')
+st.write(df)
