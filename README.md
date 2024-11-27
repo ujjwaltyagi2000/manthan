@@ -59,7 +59,3 @@ The data was extracted from the following key sources:
 ## Conclusion
 
 _Manthan_ provides a unique data-driven perspective on Indian elections by leveraging both political and socio-economic data. The project aims to contribute to understanding the evolving political landscape of India and offer insights into how various factors shape election outcomes.
-
----
-
-Let me know if you'd like to add or modify any part!
