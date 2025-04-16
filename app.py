@@ -17,18 +17,20 @@ st.set_page_config(
 )
 
 
+@st.cache_data  # This will cache the data for faster loading
 # Function to load data
-@st.cache_data
 def load_data():
     # Update these paths to where your data files are stored
-    df_ls_2019 = pd.read_csv("data/dashboard/candidate_background_2019.csv")
-    df_ls_2024 = pd.read_csv("data/dashboard/candidate_background_2024.csv")
-    return df_ls_2019, df_ls_2024
+    cand_list_2019 = pd.read_csv("data/dashboard/candidate_list_2019.csv")
+    cand_list_2024 = pd.read_csv("data/dashboard/candidate_list_2024.csv")
+    cand_bg_2019 = pd.read_csv("data/dashboard/candidate_background_2019.csv")
+    cand_bg_2024 = pd.read_csv("data/dashboard/candidate_background_2024.csv")
+    return cand_list_2019, cand_list_2024, cand_bg_2019, cand_bg_2024
 
 
 # Load the data
 try:
-    df_ls_2019, df_ls_2024 = load_data()
+    cand_list_2019, cand_list_2024, cand_bg_2019, cand_bg_2024 = load_data()
     data_loaded = True
 except Exception as e:
     st.error(f"Error loading data: {e}")
@@ -65,13 +67,13 @@ if page == "Home":
 
         with col1:
             st.subheader("2019 Election Statistics")
-            st.metric("Total Candidates", f"{len(df_ls_2019):,}")
-            st.metric("Political Parties", f"{df_ls_2019['party'].nunique():,}")
+            st.metric("Total Candidates", f"{len(cand_bg_2019):,}")
+            st.metric("Political Parties", f"{cand_bg_2019['party'].nunique():,}")
 
         with col2:
             st.subheader("2024 Election Statistics")
-            st.metric("Total Candidates", f"{len(df_ls_2024):,}")
-            st.metric("Political Parties", f"{df_ls_2024['party'].nunique():,}")
+            st.metric("Total Candidates", f"{len(cand_bg_2024):,}")
+            st.metric("Political Parties", f"{cand_bg_2024['party'].nunique():,}")
 
         # Key insights section
         st.header("Key Insights")
@@ -88,7 +90,7 @@ if page == "Home":
 
         # Show a sample of the data
         st.subheader("Sample Data from 2024 Elections")
-        st.dataframe(df_ls_2024.head())
+        st.dataframe(cand_bg_2024.head())
 
     else:
         st.warning("Please upload the data files to continue.")
@@ -105,10 +107,10 @@ elif page == "Candidate Demographics":
 
         with tab1:
             fig = px.histogram(
-                df_ls_2019,
-                x="Age",
+                cand_bg_2019,
+                x="age",
                 title="Age Distribution of Candidates (2019)",
-                labels={"Age": "Age", "count": "Number of Candidates"},
+                labels={"age": "age", "count": "Number of Candidates"},
                 nbins=50,
                 color_discrete_sequence=["#1f77b4"],
             )
@@ -116,16 +118,16 @@ elif page == "Candidate Demographics":
 
             # Age statistics
             col1, col2, col3 = st.columns(3)
-            col1.metric("Average Age", f"{df_ls_2019['Age'].mean():.1f}")
-            col2.metric("Minimum Age", f"{df_ls_2019['Age'].min()}")
-            col3.metric("Maximum Age", f"{df_ls_2019['Age'].max()}")
+            col1.metric("Average Age", f"{cand_bg_2019['age'].mean():.1f}")
+            col2.metric("Minimum Age", f"{cand_bg_2019['age'].min()}")
+            col3.metric("Maximum Age", f"{cand_bg_2019['age'].max()}")
 
         with tab2:
             fig = px.histogram(
-                df_ls_2024,
-                x="Age",
+                cand_bg_2024,
+                x="age",
                 title="Age Distribution of Candidates (2024)",
-                labels={"Age": "Age", "count": "Number of Candidates"},
+                labels={"age": "age", "count": "Number of Candidates"},
                 nbins=50,
                 color_discrete_sequence=["#ff7f0e"],
             )
@@ -133,9 +135,9 @@ elif page == "Candidate Demographics":
 
             # Age statistics
             col1, col2, col3 = st.columns(3)
-            col1.metric("Average Age", f"{df_ls_2024['Age'].mean():.1f}")
-            col2.metric("Minimum Age", f"{df_ls_2024['Age'].min()}")
-            col3.metric("Maximum Age", f"{df_ls_2024['Age'].max()}")
+            col1.metric("Average Age", f"{cand_bg_2024['age'].mean():.1f}")
+            col2.metric("Minimum Age", f"{cand_bg_2024['age'].min()}")
+            col3.metric("Maximum Age", f"{cand_bg_2024['age'].max()}")
 
         # Gender distribution
         st.subheader("Gender Distribution")
@@ -144,12 +146,12 @@ elif page == "Candidate Demographics":
 
         with col1:
             # Calculate gender distribution for 2019
-            gender_2019 = df_ls_2019["Gender"].value_counts().reset_index()
-            gender_2019.columns = ["Gender", "Count"]
+            gender_2019 = cand_list_2019["gender"].value_counts().reset_index()
+            gender_2019.columns = ["gender", "Count"]
 
             fig = px.pie(
                 gender_2019,
-                names="Gender",
+                names="gender",
                 values="Count",
                 title="Gender Distribution (2019)",
                 color_discrete_sequence=px.colors.qualitative.Pastel,
@@ -158,12 +160,12 @@ elif page == "Candidate Demographics":
 
         with col2:
             # Calculate gender distribution for 2024
-            gender_2024 = df_ls_2024["Gender"].value_counts().reset_index()
-            gender_2024.columns = ["Gender", "Count"]
+            gender_2024 = cand_list_2024["gender"].value_counts().reset_index()
+            gender_2024.columns = ["gender", "Count"]
 
             fig = px.pie(
                 gender_2024,
-                names="Gender",
+                names="gender",
                 values="Count",
                 title="Gender Distribution (2024)",
                 color_discrete_sequence=px.colors.qualitative.Pastel,
@@ -175,15 +177,15 @@ elif page == "Candidate Demographics":
 
         # Create comparison dataframe
         gender_2019_pct = (
-            df_ls_2019["Gender"].value_counts(normalize=True).reset_index()
+            cand_list_2019["gender"].value_counts(normalize=True).reset_index()
         )
-        gender_2019_pct.columns = ["Gender", "Percentage"]
+        gender_2019_pct.columns = ["gender", "Percentage"]
         gender_2019_pct["Year"] = "2019"
 
         gender_2024_pct = (
-            df_ls_2024["Gender"].value_counts(normalize=True).reset_index()
+            cand_list_2024["gender"].value_counts(normalize=True).reset_index()
         )
-        gender_2024_pct.columns = ["Gender", "Percentage"]
+        gender_2024_pct.columns = ["gender", "Percentage"]
         gender_2024_pct["Year"] = "2024"
 
         gender_comparison = pd.concat([gender_2019_pct, gender_2024_pct])
@@ -191,12 +193,12 @@ elif page == "Candidate Demographics":
 
         fig = px.bar(
             gender_comparison,
-            x="Gender",
+            x="gender",
             y="Percentage",
             color="Year",
             barmode="group",
             title="Gender Distribution Comparison (2019 vs 2024)",
-            labels={"Percentage": "Percentage (%)", "Gender": "Gender"},
+            labels={"Percentage": "Percentage (%)", "gender": "gender"},
         )
         st.plotly_chart(fig, use_container_width=True)
 
@@ -215,7 +217,7 @@ elif page == "criminal_cases":
 
         with tab1:
             # Distribution of criminal cases in 2019
-            criminal_2019 = df_ls_2019["criminal_cases"].value_counts().reset_index()
+            criminal_2019 = cand_bg_2019["criminal_cases"].value_counts().reset_index()
             criminal_2019.columns = ["Number of Cases", "Count"]
 
             fig = px.bar(
@@ -231,12 +233,12 @@ elif page == "criminal_cases":
             st.plotly_chart(fig, use_container_width=True)
 
             # Percentage of candidates with criminal cases
-            criminal_pct_2019 = (df_ls_2019["criminal_cases"] > 0).mean() * 100
+            criminal_pct_2019 = (cand_bg_2019["criminal_cases"] > 0).mean() * 100
             st.metric("Candidates with Criminal Cases (%)", f"{criminal_pct_2019:.1f}%")
 
         with tab2:
             # Distribution of criminal cases in 2024
-            criminal_2024 = df_ls_2024["criminal_cases"].value_counts().reset_index()
+            criminal_2024 = cand_bg_2024["criminal_cases"].value_counts().reset_index()
             criminal_2024.columns = ["Number of Cases", "Count"]
 
             fig = px.bar(
@@ -252,20 +254,20 @@ elif page == "criminal_cases":
             st.plotly_chart(fig, use_container_width=True)
 
             # Percentage of candidates with criminal cases
-            criminal_pct_2024 = (df_ls_2024["criminal_cases"] > 0).mean() * 100
+            criminal_pct_2024 = (cand_bg_2024["criminal_cases"] > 0).mean() * 100
             st.metric("Candidates with Criminal Cases (%)", f"{criminal_pct_2024:.1f}%")
 
         # Analysis by top parties
         st.subheader("Criminal Cases by Major Political Parties")
 
         # Get top 10 parties by candidate count
-        top_parties_2019 = df_ls_2019["party"].value_counts().head(10).index.tolist()
-        top_parties_2024 = df_ls_2024["party"].value_counts().head(10).index.tolist()
+        top_parties_2019 = cand_bg_2019["party"].value_counts().head(10).index.tolist()
+        top_parties_2024 = cand_bg_2024["party"].value_counts().head(10).index.tolist()
         top_parties = list(set(top_parties_2019 + top_parties_2024))
 
         # Create comparison dataframe for 2019
         party_criminal_2019 = (
-            df_ls_2019[df_ls_2019["party"].isin(top_parties)]
+            cand_bg_2019[cand_bg_2019["party"].isin(top_parties)]
             .groupby("party")["criminal_cases"]
             .mean()
             .reset_index()
@@ -274,7 +276,7 @@ elif page == "criminal_cases":
 
         # Create comparison dataframe for 2024
         party_criminal_2024 = (
-            df_ls_2024[df_ls_2024["party"].isin(top_parties)]
+            cand_bg_2024[cand_bg_2024["party"].isin(top_parties)]
             .groupby("party")["criminal_cases"]
             .mean()
             .reset_index()
@@ -315,7 +317,7 @@ elif page == "Education & Assets":
 
         with tab1:
             # Education distribution for 2019
-            education_2019 = df_ls_2019["education"].value_counts().reset_index()
+            education_2019 = cand_bg_2019["education"].value_counts().reset_index()
             education_2019.columns = ["education", "Count"]
             education_2019 = education_2019.sort_values("Count", ascending=True)
 
@@ -334,7 +336,7 @@ elif page == "Education & Assets":
 
         with tab2:
             # Education distribution for 2024
-            education_2024 = df_ls_2024["education"].value_counts().reset_index()
+            education_2024 = cand_bg_2024["education"].value_counts().reset_index()
             education_2024.columns = ["education", "Count"]
             education_2024 = education_2024.sort_values("Count", ascending=True)
 
@@ -362,13 +364,13 @@ elif page == "Education & Assets":
         with tab1:
             # Assets distribution for 2019
             fig = px.histogram(
-                df_ls_2019,
-                x="Total Assets",
+                cand_bg_2019,
+                x="total_assets",
                 title="Assets Distribution (2019)",
                 nbins=50,
                 log_x=use_log_scale,
                 labels={
-                    "Total Assets": "Total Assets (₹)",
+                    "total_assets": "Total Assets (₹)",
                     "count": "Number of Candidates",
                 },
             )
@@ -376,20 +378,24 @@ elif page == "Education & Assets":
 
             # Asset statistics
             col1, col2, col3 = st.columns(3)
-            col1.metric("Average Assets", f"₹{df_ls_2019['Total Assets'].mean():,.2f}")
-            col2.metric("Median Assets", f"₹{df_ls_2019['Total Assets'].median():,.2f}")
-            col3.metric("Maximum Assets", f"₹{df_ls_2019['Total Assets'].max():,.2f}")
+            col1.metric(
+                "Average Assets", f"₹{cand_bg_2019['total_assets'].mean():,.2f}"
+            )
+            col2.metric(
+                "Median Assets", f"₹{cand_bg_2019['total_assets'].median():,.2f}"
+            )
+            col3.metric("Maximum Assets", f"₹{cand_bg_2019['total_assets'].max():,.2f}")
 
         with tab2:
             # Assets distribution for 2024
             fig = px.histogram(
-                df_ls_2024,
-                x="Total Assets",
+                cand_bg_2024,
+                x="total_assets",
                 title="Assets Distribution (2024)",
                 nbins=50,
                 log_x=use_log_scale,
                 labels={
-                    "Total Assets": "Total Assets (₹)",
+                    "total_assets": "Total Assets (₹)",
                     "count": "Number of Candidates",
                 },
             )
@@ -397,9 +403,13 @@ elif page == "Education & Assets":
 
             # Asset statistics
             col1, col2, col3 = st.columns(3)
-            col1.metric("Average Assets", f"₹{df_ls_2024['Total Assets'].mean():,.2f}")
-            col2.metric("Median Assets", f"₹{df_ls_2024['Total Assets'].median():,.2f}")
-            col3.metric("Maximum Assets", f"₹{df_ls_2024['Total Assets'].max():,.2f}")
+            col1.metric(
+                "Average Assets", f"₹{cand_bg_2024['total_assets'].mean():,.2f}"
+            )
+            col2.metric(
+                "Median Assets", f"₹{cand_bg_2024['total_assets'].median():,.2f}"
+            )
+            col3.metric("Maximum Assets", f"₹{cand_bg_2024['total_assets'].max():,.2f}")
 
         # Relationship between education and assets
         st.subheader("Relationship: Education & Assets")
@@ -407,23 +417,23 @@ elif page == "Education & Assets":
         year = st.radio("Select Year:", ["2019", "2024"])
 
         if year == "2019":
-            df = df_ls_2019
+            df = cand_bg_2019
         else:
-            df = df_ls_2024
+            df = cand_bg_2024
 
         # Group by education and calculate average assets
-        edu_assets = df.groupby("education")["Total Assets"].mean().reset_index()
-        edu_assets = edu_assets.sort_values("Total Assets")
+        edu_assets = df.groupby("education")["total_assets"].mean().reset_index()
+        edu_assets = edu_assets.sort_values("total_assets")
 
         fig = px.bar(
             edu_assets,
             y="education",
-            x="Total Assets",
+            x="total_assets",
             title=f"Average Assets by Educational Qualification ({year})",
             orientation="h",
             labels={
                 "education": "Educational Qualification",
-                "Total Assets": "Average Total Assets (₹)",
+                "total_assets": "Average Total Assets (₹)",
             },
         )
         st.plotly_chart(fig, use_container_width=True)
@@ -443,7 +453,9 @@ elif page == "Party Analysis":
 
         with col1:
             # Top parties in 2019
-            top_parties_2019 = df_ls_2019["party"].value_counts().head(10).reset_index()
+            top_parties_2019 = (
+                cand_bg_2019["party"].value_counts().head(10).iloc[1:].reset_index()
+            )
             top_parties_2019.columns = ["party", "Number of Candidates"]
 
             fig = px.bar(
@@ -461,7 +473,9 @@ elif page == "Party Analysis":
 
         with col2:
             # Top parties in 2024
-            top_parties_2024 = df_ls_2024["party"].value_counts().head(10).reset_index()
+            top_parties_2024 = (
+                cand_bg_2024["party"].value_counts().head(10).iloc[1:].reset_index()
+            )
             top_parties_2024.columns = ["party", "Number of Candidates"]
 
             fig = px.bar(
@@ -489,8 +503,8 @@ elif page == "Party Analysis":
         # Get top 10 parties overall
         top_parties_overall = pd.concat(
             [
-                df_ls_2019["party"].value_counts().head(10).reset_index(),
-                df_ls_2024["party"].value_counts().head(10).reset_index(),
+                cand_bg_2019["party"].value_counts().head(10).reset_index(),
+                cand_bg_2024["party"].value_counts().head(10).reset_index(),
             ]
         )
         top_parties_overall = top_parties_overall.iloc[:, 0].unique().tolist()
@@ -506,16 +520,16 @@ elif page == "Party Analysis":
             if analysis_type == "Average Age":
                 # Average age by party
                 party_age_2019 = (
-                    df_ls_2019[df_ls_2019["party"].isin(selected_parties)]
-                    .groupby("party")["Age"]
+                    cand_bg_2019[cand_bg_2019["party"].isin(selected_parties)]
+                    .groupby("party")["age"]
                     .mean()
                     .reset_index()
                 )
                 party_age_2019["Year"] = "2019"
 
                 party_age_2024 = (
-                    df_ls_2024[df_ls_2024["party"].isin(selected_parties)]
-                    .groupby("party")["Age"]
+                    cand_bg_2024[cand_bg_2024["party"].isin(selected_parties)]
+                    .groupby("party")["age"]
                     .mean()
                     .reset_index()
                 )
@@ -526,19 +540,19 @@ elif page == "Party Analysis":
                 fig = px.bar(
                     party_age_comparison,
                     x="party",
-                    y="Age",
+                    y="age",
                     color="Year",
                     barmode="group",
                     title="Average Age by Party (2019 vs 2024)",
-                    labels={"Age": "Average Age", "party": "Political Party"},
+                    labels={"age": "Average Age", "party": "Political Party"},
                 )
                 st.plotly_chart(fig, use_container_width=True)
 
             elif analysis_type == "Gender Diversity":
                 # Calculate female percentage by party
                 party_gender_2019 = (
-                    df_ls_2019[df_ls_2019["party"].isin(selected_parties)]
-                    .groupby("party")["Gender"]
+                    cand_bg_2019[cand_bg_2019["party"].isin(selected_parties)]
+                    .groupby("party")["gender"]
                     .apply(lambda x: (x == "F").mean() * 100)
                     .reset_index()
                 )
@@ -546,8 +560,8 @@ elif page == "Party Analysis":
                 party_gender_2019["Year"] = "2019"
 
                 party_gender_2024 = (
-                    df_ls_2024[df_ls_2024["party"].isin(selected_parties)]
-                    .groupby("party")["Gender"]
+                    cand_bg_2024[cand_bg_2024["party"].isin(selected_parties)]
+                    .groupby("party")["gender"]
                     .apply(lambda x: (x == "F").mean() * 100)
                     .reset_index()
                 )
@@ -575,7 +589,7 @@ elif page == "Party Analysis":
             elif analysis_type == "criminal_cases":
                 # Average criminal cases by party
                 party_criminal_2019 = (
-                    df_ls_2019[df_ls_2019["party"].isin(selected_parties)]
+                    cand_bg_2019[cand_bg_2019["party"].isin(selected_parties)]
                     .groupby("party")["criminal_cases"]
                     .mean()
                     .reset_index()
@@ -583,7 +597,7 @@ elif page == "Party Analysis":
                 party_criminal_2019["Year"] = "2019"
 
                 party_criminal_2024 = (
-                    df_ls_2024[df_ls_2024["party"].isin(selected_parties)]
+                    cand_bg_2024[cand_bg_2024["party"].isin(selected_parties)]
                     .groupby("party")["criminal_cases"]
                     .mean()
                     .reset_index()
@@ -611,16 +625,16 @@ elif page == "Party Analysis":
             elif analysis_type == "Average Assets":
                 # Average assets by party
                 party_assets_2019 = (
-                    df_ls_2019[df_ls_2019["party"].isin(selected_parties)]
-                    .groupby("party")["Total Assets"]
+                    cand_bg_2019[cand_bg_2019["party"].isin(selected_parties)]
+                    .groupby("party")["total_assets"]
                     .mean()
                     .reset_index()
                 )
                 party_assets_2019["Year"] = "2019"
 
                 party_assets_2024 = (
-                    df_ls_2024[df_ls_2024["party"].isin(selected_parties)]
-                    .groupby("party")["Total Assets"]
+                    cand_bg_2024[cand_bg_2024["party"].isin(selected_parties)]
+                    .groupby("party")["total_assets"]
                     .mean()
                     .reset_index()
                 )
@@ -633,12 +647,12 @@ elif page == "Party Analysis":
                 fig = px.bar(
                     party_assets_comparison,
                     x="party",
-                    y="Total Assets",
+                    y="total_assets",
                     color="Year",
                     barmode="group",
                     title="Average Assets by Party (2019 vs 2024)",
                     labels={
-                        "Total Assets": "Average Total Assets (₹)",
+                        "total_assets": "Average Total Assets (₹)",
                         "party": "Political Party",
                     },
                 )
@@ -650,4 +664,6 @@ elif page == "Party Analysis":
 # Footer
 st.markdown("---")
 st.markdown("**Manthan** - Analyzing Indian Lok Sabha Elections 2019 & 2024")
-st.markdown("Data source: GitHub repository by ujjwaltyagi2000")
+st.markdown(
+    "Data source: [GitHub repository](https://github.com/ujjwaltyagi2000/manthan) by [Ujjwal Tyagi](https://ujjwaltyagi2000.github.io/)"
+)
