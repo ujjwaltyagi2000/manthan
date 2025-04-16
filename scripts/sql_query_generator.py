@@ -1,3 +1,5 @@
+# this script generates SQL queries for table creation from CSV files
+
 import pandas as pd
 import os
 
@@ -7,6 +9,7 @@ data_dir = "../data/processed"
 # File to save the generated SQL queries
 output_file = "create_table_queries.sql"
 
+# returns the SQL type for a given pandas dtype
 def get_sql_column_type(df):
     columns = df.columns
     sql_types = []
@@ -26,6 +29,16 @@ def get_sql_column_type(df):
             sql_types.append("text")  # Fallback to text for unknown types
     
     return dict(zip(columns, sql_types))
+
+'''
+we could've written the conditionals as 
+if dtype == "object":
+    sql_types.append("text")
+The issue with such conditionals is that they directly compare the dtype to a string (e.g., "object"), 
+which works in some cases but may not handle all scenarios correctly, particularly for special or more nuanced 
+Pandas data types like nullable integers (Int64) or datetime types.
+
+'''
 
 # Generate SQL queries for all CSV files
 csv_files = os.listdir(data_dir)
