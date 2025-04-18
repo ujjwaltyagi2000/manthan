@@ -4,6 +4,8 @@
 
 _Manthan_ is a comprehensive data analytics project aimed at analyzing the electoral landscape of India, comparing the 2019 and 2024 general elections. The goal is to identify key factors behind the shift in election results, specifically why the BJP secured fewer seats in 2024. The project explores multiple dimensions including candidate demographics, voter turnout, socio-economic indicators, and voting patterns.
 
+🚀 **Live Demo:** [manthan.streamlit.app](https://manthan.streamlit.app/)
+
 ## Key Objectives
 
 - **Data Acquisition**: Scrape, clean, and organize data from various reliable sources.
@@ -28,16 +30,16 @@ The data was extracted from the following key sources:
   - `Pandas` was extensively used for cleaning, merging, and transforming large datasets.
   - `FuzzyWuzzy` was utilized for fuzzy string matching to resolve inconsistencies in candidate names across different datasets.
   - `Numpy` assisted with numerical operations during data cleaning and transformation.
-- **Visualization** (Planned):
-  - The cleaned and structured data will be analyzed and visualized using `Matplotlib` and `Plotly`.
-- **Dashboard** (Planned):
-  - Final insights will be presented on a user-friendly `Streamlit` dashboard, offering interactive visualizations.
+- **Visualization** :
+  - The cleaned and structured data was analyzed and visualized using `Matplotlib` and `Plotly`.
+- **Dashboard** :
+  - Final insights was presented on a user-friendly `Streamlit` dashboard, offering interactive visualizations.
 
 ## Methodology
 
 1. **Data Extraction**: Leveraged web scraping tools to extract dynamic data from online resources, ensuring accuracy and completeness of election and socio-demographic data.
 2. **Data Cleaning**: Rigorous data wrangling techniques were applied to handle inconsistencies, missing values, and redundancies, ensuring data integrity across all sources.
-3. **Data Analysis** (Ongoing):
+3. **Data Analysis**:
    - Comparative analysis of BJP’s performance across two election cycles.
    - Exploration of voter turnout, candidate demographics, and socio-economic trends.
    - Correlation between candidates’ background and election results.
@@ -53,8 +55,8 @@ The data was extracted from the following key sources:
 
 - **Data Scraping**: Completed
 - **Data Wrangling**: Completed
-- **Data Analysis**: Ongoing
-- **Dashboard Development**: Upcoming
+- **Data Analysis**: Completed
+- **Dashboard Development**: Completed
 
 ## Conclusion
 
